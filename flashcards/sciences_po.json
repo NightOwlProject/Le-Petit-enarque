@@ -1,0 +1,92 @@
+{
+  "id": "sciences_po",
+  "title": "Sciences politiques",
+  "description": "Auteurs et concepts clés sur l'État, la nation et la démocratie",
+  "cards": [
+    {
+      "id": "card_sp_1",
+      "front": "Définition de l'État selon Max Weber (1919) ?",
+      "back": "Le groupement politique qui revendique avec succès le monopole tendanciel de la violence physique légitime sur un territoire donné."
+    },
+    {
+      "id": "card_sp_2",
+      "front": "Qui a créé l'École libre des sciences politiques en 1872, et pourquoi ?",
+      "back": "Émile Boutmy, après la défaite de Sedan face à la Prusse (1870), pour former une nouvelle élite administrative. Elle deviendra en 1945 l'IEP de Paris et la FNSP."
+    },
+    {
+      "id": "card_sp_3",
+      "front": "Critère de Karl Popper pour qu'une théorie soit scientifique ?",
+      "back": "La falsifiabilité : elle doit pouvoir être potentiellement réfutée par l'expérience ou l'observation."
+    },
+    {
+      "id": "card_sp_4",
+      "front": "Thèse d'Ernest Gellner sur nation et nationalisme ?",
+      "back": "\"Ce n'est pas la nation qui crée le nationalisme, mais le nationalisme qui crée la nation.\" La nation est une construction récente, fabriquée par l'État via l'éducation de masse."
+    },
+    {
+      "id": "card_sp_5",
+      "front": "Selon Ernest Renan (1882), sur quoi repose une nation ?",
+      "back": "Un passé commun, un oubli partagé, et un \"plébiscite de tous les jours\" — pas la langue, la race ou la religion."
+    },
+    {
+      "id": "card_sp_6",
+      "front": "Formule de Charles Tilly sur la formation de l'État ?",
+      "back": "\"Faire la guerre, c'est faire l'État\" : la guerre exige de lever des ressources et de bâtir une administration pour les collecter."
+    },
+    {
+      "id": "card_sp_7",
+      "front": "Les trois types de droits du modèle de citoyenneté de T. H. Marshall ?",
+      "back": "Droits civils (État de droit), droits politiques (État parlementaire), droits sociaux (État-providence)."
+    },
+    {
+      "id": "card_sp_8",
+      "front": "Différence entre \"État-nation\" et \"Nation-État\" selon Juan Linz ?",
+      "back": "L'État-nation présente une forte homogénéisation culturelle (ex. la France) ; le Nation-État fait cohabiter plusieurs cultures ou identités infranationales (ex. l'Espagne)."
+    },
+    {
+      "id": "card_sp_9",
+      "front": "Conception de la démocratie selon Joseph Schumpeter ?",
+      "back": "Une conception \"minimaliste\" et élitiste : une compétition électorale pour l'obtention du pouvoir de décision, plutôt qu'une participation active continue des citoyens."
+    },
+    {
+      "id": "card_sp_10",
+      "front": "Pour Bernard Manin, l'élection comme mode de sélection des représentants a un caractère...",
+      "back": "Plutôt aristocratique : elle tend à sélectionner les \"meilleurs\". Il distingue trois âges du gouvernement représentatif : parlementarisme, démocratie de partis, démocratie du public."
+    },
+    {
+      "id": "card_sp_11",
+      "front": "En quoi la démocratie athénienne différait-elle de la démocratie représentative moderne (Moses Finley) ?",
+      "back": "Pas de dimension électorale : participation directe, délibération, tirage au sort et rotation des charges (élection réservée aux stratèges) ; citoyenneté excluant femmes, étrangers et esclaves."
+    },
+    {
+      "id": "card_sp_12",
+      "front": "Typologie de Barrington Moore sur les origines sociales des régimes politiques ?",
+      "back": "Victoire de la bourgeoisie -> démocratie ; victoire de l'aristocratie terrienne -> fascisme ; victoire de la paysannerie -> communisme."
+    },
+    {
+      "id": "card_sp_13",
+      "front": "\"Processus de civilisation\" selon Norbert Elias ?",
+      "back": "La construction de l'État moderne (monopoles fiscal et militaire) s'accompagne d'une transformation des mœurs qui abaisse le seuil de tolérance à la violence, illustrée par la domestication de la noblesse à Versailles."
+    },
+    {
+      "id": "card_sp_14",
+      "front": "Que désigne le \"nationalisme banal\" de Michael Billig ?",
+      "back": "Les manifestations discrètes et omniprésentes du sentiment national dans la vie quotidienne (drapeaux, monnaie, presse...), rendues invisibles car banalisées. Proche des \"communautés imaginées\" de Benedict Anderson."
+    },
+    {
+      "id": "card_sp_15",
+      "front": "\"Loi d'airain de l'oligarchie\" de Robert Michels ?",
+      "back": "Toute organisation, même démocratique dans son principe, tend inévitablement vers la concentration du pouvoir entre les mains d'une minorité dirigeante, par besoin d'organisation et d'expertise."
+    },
+    {
+      "id": "card_sp_16",
+      "front": "Selon Stein Rokkan, à quoi correspondent les axes Ouest-Est et Nord-Sud en Europe ?",
+      "back": "Ouest-Est = construction étatique (dimensions économique et territoriale) ; Nord-Sud = construction nationale (dimension culturelle et religieuse)."
+    },
+    {
+      "id": "card_sp_17",
+      "front": "Clivages de Rokkan et Lipset : d'où viennent \"possédants/travailleurs\" et \"Église/État\" ?",
+      "back": "\"Possédants/travailleurs\" vient de la révolution industrielle ; \"Église/État\" vient de la révolution nationale. Cette grille explique l'origine des grandes familles de partis en Europe de l'Ouest."
+    }
+  ]
+}

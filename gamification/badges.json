@@ -1,10 +1,10 @@
 {
-  "version": 7,
+  "version": 8,
   "badges": [
     {
       "id": "badge_volume1",
       "title": "Bébé Macron",
-      "description": "1re question répondue — le plus jeune badge de la République",
+      "description": "1re question répondue, le plus jeune badge de la République",
       "icon": "🍼",
       "condition": { "type": "volume", "count": 1 }
     },
@@ -60,7 +60,7 @@
     {
       "id": "badge_volume1500",
       "title": "Napoléon Bonaparte",
-      "description": "1500 questions répondues au total — l'Empereur en personne",
+      "description": "1500 questions répondues au total, l'Empereur en personne",
       "icon": "👑",
       "condition": { "type": "volume", "count": 1500 }
     },
@@ -74,9 +74,9 @@
     },
     {
       "id": "badge_streak7_constitution",
-      "title": "Général de Gaulle",
+      "title": "Winston Churchill",
       "description": "7 bonnes réponses d'affilée en droit constitutionnel",
-      "icon": "🇫🇷",
+      "icon": "🎩",
       "condition": { "type": "streak", "topic": "constitution", "count": 7 },
       "revokeCondition": { "type": "accuracy_below", "topic": "constitution", "window": 10, "threshold": 0.5 }
     },
@@ -95,6 +95,13 @@
       "condition": { "type": "accuracy_above", "topic": "constitution", "window": 10, "threshold": 0.9 }
     },
     {
+      "id": "badge_master_constitution",
+      "title": "Nelson Mandela",
+      "description": "50 questions de droit constitutionnel répondues",
+      "icon": "🕊️",
+      "condition": { "type": "volume", "topic": "constitution", "count": 50 }
+    },
+    {
       "id": "badge_streak5_ct",
       "title": "Gaston Defferre",
       "description": "5 bonnes réponses d'affilée sur les collectivités territoriales",
@@ -111,10 +118,17 @@
     },
     {
       "id": "badge_precision_ct",
-      "title": "Baron Haussmann bis",
+      "title": "Édouard Herriot",
       "description": "90% de bonnes réponses sur les 10 dernières questions sur les collectivités territoriales",
       "icon": "🎯",
       "condition": { "type": "accuracy_above", "topic": "ct", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_master_ct",
+      "title": "Angela Merkel",
+      "description": "30 questions sur les collectivités territoriales répondues",
+      "icon": "🧊",
+      "condition": { "type": "volume", "topic": "ct", "count": 30 }
     },
     {
       "id": "badge_streak10_arrets",
@@ -139,6 +153,13 @@
       "condition": { "type": "accuracy_above", "topic": "arrets_quiz", "window": 20, "threshold": 0.9 }
     },
     {
+      "id": "badge_master_arrets",
+      "title": "Ruth Bader Ginsburg",
+      "description": "80 questions sur les arrêts répondues",
+      "icon": "🧑‍⚖️",
+      "condition": { "type": "volume", "topic": "arrets_quiz", "count": 80 }
+    },
+    {
       "id": "badge_streak5_contentieux",
       "title": "Raymond Odent",
       "description": "5 bonnes réponses d'affilée en contentieux administratif",
@@ -159,6 +180,13 @@
       "description": "90% de bonnes réponses sur les 10 dernières questions de contentieux administratif",
       "icon": "🎯",
       "condition": { "type": "accuracy_above", "topic": "contentieux_admin", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_master_contentieux",
+      "title": "John Marshall",
+      "description": "30 questions de contentieux administratif répondues",
+      "icon": "🏛️",
+      "condition": { "type": "volume", "topic": "contentieux_admin", "count": 30 }
     },
     {
       "id": "badge_streak5_dmue",
@@ -183,6 +211,13 @@
       "condition": { "type": "accuracy_above", "topic": "dmue", "window": 10, "threshold": 0.9 }
     },
     {
+      "id": "badge_master_dmue",
+      "title": "Ursula von der Leyen",
+      "description": "30 questions de droit matériel de l'UE répondues",
+      "icon": "🇪🇺",
+      "condition": { "type": "volume", "topic": "dmue", "count": 30 }
+    },
+    {
       "id": "badge_streak5_da2",
       "title": "Maurice Hauriou",
       "description": "5 bonnes réponses d'affilée sur police, service public et actes administratifs",
@@ -203,6 +238,13 @@
       "description": "90% de bonnes réponses sur les 10 dernières questions de police, SP et actes administratifs",
       "icon": "🎯",
       "condition": { "type": "accuracy_above", "topic": "da2", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_master_da2",
+      "title": "Theodore Roosevelt",
+      "description": "30 questions sur police, service public et actes administratifs répondues",
+      "icon": "🤠",
+      "condition": { "type": "volume", "topic": "da2", "count": 30 }
     },
     {
       "id": "badge_streak5_dfp",
@@ -227,9 +269,38 @@
       "condition": { "type": "accuracy_above", "topic": "dfp", "window": 10, "threshold": 0.9 }
     },
     {
+      "id": "badge_master_dfp",
+      "title": "Otto von Bismarck",
+      "description": "30 questions de droit de la fonction publique répondues",
+      "icon": "🏢",
+      "condition": { "type": "volume", "topic": "dfp", "count": 30 }
+    },
+    {
+      "id": "badge_streak5_sciences_po",
+      "title": "Alexis de Tocqueville",
+      "description": "5 bonnes réponses d'affilée en sciences politiques",
+      "icon": "🗳️",
+      "condition": { "type": "streak", "topic": "sciences_po", "count": 5 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "sciences_po", "window": 8, "threshold": 0.5 }
+    },
+    {
+      "id": "badge_expert_sciences_po",
+      "title": "Max Weber",
+      "description": "15 questions de sciences politiques répondues",
+      "icon": "📖",
+      "condition": { "type": "volume", "topic": "sciences_po", "count": 15 }
+    },
+    {
+      "id": "badge_precision_sciences_po",
+      "title": "Hannah Arendt",
+      "description": "90% de bonnes réponses sur les 10 dernières questions de sciences politiques",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "sciences_po", "window": 10, "threshold": 0.9 }
+    },
+    {
       "id": "badge_asterix",
       "title": "Astérix le Gaulois",
-      "description": "3 questions répondues en droit constitutionnel ET 3 sur les collectivités territoriales — pour bien commencer",
+      "description": "3 questions répondues en droit constitutionnel ET 3 sur les collectivités territoriales, pour bien commencer",
       "icon": "🐗",
       "condition": {
         "type": "all_of",
@@ -283,7 +354,7 @@
     {
       "id": "badge_pentathlete",
       "title": "Talleyrand",
-      "description": "Au moins 10 questions répondues dans chacun des sept thèmes de quiz — celui qui a servi tous les régimes",
+      "description": "Au moins 10 questions répondues dans chacun des huit thèmes de quiz, celui qui a servi tous les régimes",
       "icon": "🦎",
       "condition": {
         "type": "all_of",
@@ -294,14 +365,15 @@
           { "type": "volume", "topic": "contentieux_admin", "count": 10 },
           { "type": "volume", "topic": "dmue", "count": 10 },
           { "type": "volume", "topic": "da2", "count": 10 },
-          { "type": "volume", "topic": "dfp", "count": 10 }
+          { "type": "volume", "topic": "dfp", "count": 10 },
+          { "type": "volume", "topic": "sciences_po", "count": 10 }
         ]
       }
     },
     {
       "id": "badge_jeanne_darc",
       "title": "Jeanne d'Arc",
-      "description": "90% de réussite simultanément sur les sept thèmes de quiz (10 dernières questions de chacun) — le badge le plus dur du jeu",
+      "description": "90% de réussite simultanément sur les huit thèmes de quiz (10 dernières questions de chacun), le badge le plus dur du jeu",
       "icon": "🛡️",
       "condition": {
         "type": "all_of",
@@ -312,9 +384,58 @@
           { "type": "accuracy_above", "topic": "contentieux_admin", "window": 10, "threshold": 0.9 },
           { "type": "accuracy_above", "topic": "dmue", "window": 10, "threshold": 0.9 },
           { "type": "accuracy_above", "topic": "da2", "window": 10, "threshold": 0.9 },
-          { "type": "accuracy_above", "topic": "dfp", "window": 10, "threshold": 0.9 }
+          { "type": "accuracy_above", "topic": "dfp", "window": 10, "threshold": 0.9 },
+          { "type": "accuracy_above", "topic": "sciences_po", "window": 10, "threshold": 0.9 }
         ]
       }
+    },
+    {
+      "id": "badge_bonnet_ane_1",
+      "title": "Bonnet d'Âne",
+      "description": "10 mauvaises réponses d'affilée, ça arrive aux meilleurs (ou pas)",
+      "icon": "🫏",
+      "condition": { "type": "wrong_streak", "count": 10 }
+    },
+    {
+      "id": "badge_bonnet_ane_2",
+      "title": "Cancre Diplômé",
+      "description": "20 mauvaises réponses d'affilée, un vrai parcours du combattant",
+      "icon": "🤡",
+      "condition": { "type": "wrong_streak", "count": 20 }
+    },
+    {
+      "id": "badge_bonnet_ane_3",
+      "title": "Roi des Cancres",
+      "description": "30 mauvaises réponses d'affilée, on couronne la persévérance",
+      "icon": "👑",
+      "condition": { "type": "wrong_streak", "count": 30 }
+    },
+    {
+      "id": "badge_bonnet_ane_4",
+      "title": "Légende de la Cancrerie",
+      "description": "50 mauvaises réponses d'affilée, entrée directe au panthéon de la loose",
+      "icon": "💀",
+      "condition": { "type": "wrong_streak", "count": 50 }
+    },
+    {
+      "id": "badge_titanic",
+      "title": "Capitaine du Titanic",
+      "description": "Une série qui partait bien (75% de réussite sur les 20 dernières questions) et qui a fini par couler (4 mauvaises réponses d'affilée)",
+      "icon": "🚢",
+      "condition": {
+        "type": "all_of",
+        "conditions": [
+          { "type": "accuracy_above", "window": 20, "threshold": 0.75 },
+          { "type": "wrong_streak", "count": 4 }
+        ]
+      }
+    },
+    {
+      "id": "badge_chute_libre",
+      "title": "Chute Libre",
+      "description": "Moins de 40% de réussite sur les 15 dernières questions, il est temps de réviser un peu",
+      "icon": "🪂",
+      "condition": { "type": "accuracy_below", "window": 15, "threshold": 0.4 }
     }
   ]
 }

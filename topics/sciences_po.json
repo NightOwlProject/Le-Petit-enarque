@@ -1,0 +1,165 @@
+{
+  "id": "sciences_po",
+  "title": "Sciences politiques",
+  "description": "Genèse de l'État, nation, citoyenneté et démocratie",
+  "questions": [
+    {
+      "id": "sp_q1",
+      "type": "mcq",
+      "prompt": "Selon la définition de Max Weber, l'État se définit comme un groupement politique qui revendique avec succès :",
+      "choices": ["Le monopole de l'impôt", "Le monopole tendanciel de la violence physique légitime sur un territoire donné", "Le monopole de l'éducation", "Le monopole de la représentation nationale"],
+      "correctIndex": 1,
+      "explanation": "Cette définition, formulée en 1919, permet de définir l'État par son moyen plutôt que par ses finalités (qui sont, elles, évolutives)."
+    },
+    {
+      "id": "sp_q2",
+      "type": "open",
+      "prompt": "Qui a créé l'École libre des sciences politiques en 1872, et dans quel contexte historique ?",
+      "answer": "Émile Boutmy, dans le contexte de la défaite française de Sedan (1870) face à la Prusse, pour former une nouvelle élite administrative sur le modèle des universités allemandes.",
+      "explanation": "Cette école deviendra en 1945, après nationalisation, l'IEP de Paris et la Fondation nationale des sciences politiques (FNSP)."
+    },
+    {
+      "id": "sp_q3",
+      "type": "true_false",
+      "prompt": "Alexis de Tocqueville est considéré comme l'un des premiers à avoir évoqué la \"science politique\", notamment dans De la démocratie en Amérique.",
+      "correctAnswer": true,
+      "explanation": "Sa démarche combine observation participante et méthode comparative, avec une visée normative assumée."
+    },
+    {
+      "id": "sp_q4",
+      "type": "mcq",
+      "prompt": "Selon Karl Popper, quel critère permet de distinguer une théorie scientifique d'une théorie non scientifique ?",
+      "choices": ["La popularité de la théorie", "La falsifiabilité", "L'ancienneté de la théorie", "Le nombre de citations académiques"],
+      "correctIndex": 1,
+      "explanation": "Une théorie scientifique doit pouvoir être potentiellement réfutée par l'expérience ou l'observation."
+    },
+    {
+      "id": "sp_q5",
+      "type": "open",
+      "prompt": "Quelle est la thèse centrale d'Ernest Gellner sur la relation entre nation et nationalisme ?",
+      "answer": "\"Ce n'est pas la nation qui crée le nationalisme, mais le nationalisme qui crée la nation.\" Pour Gellner, la nation est une construction récente (liée à la révolution industrielle) et c'est l'État, via l'éducation de masse, qui fabrique artificiellement le sentiment national.",
+      "explanation": "Gellner identifie l'éducation comme un troisième monopole tendanciel de l'État, après la violence (Weber) et la fiscalité."
+    },
+    {
+      "id": "sp_q6",
+      "type": "mcq",
+      "prompt": "Selon Ernest Renan (\"Qu'est-ce qu'une nation ?\", 1882), la nation repose avant tout sur :",
+      "choices": ["Une langue commune obligatoire", "Un passé commun et un oubli partagé, ainsi qu'un \"plébiscite de tous les jours\"", "Des frontières naturelles précises", "Une religion d'État unique"],
+      "correctIndex": 1,
+      "explanation": "Renan rejette les critères objectifs (langue, race, religion, frontières naturelles) comme fondements suffisants de la nation."
+    },
+    {
+      "id": "sp_q7",
+      "type": "true_false",
+      "prompt": "Selon Charles Tilly, la formation de l'État européen s'explique par la formule \"faire la guerre, c'est faire l'État\".",
+      "correctAnswer": true,
+      "explanation": "La guerre exige de lever des ressources et de bâtir une administration capable de les collecter, ce qui renforce structurellement l'État."
+    },
+    {
+      "id": "sp_q8",
+      "type": "open",
+      "prompt": "Quels sont les trois types de droits identifiés par T. H. Marshall dans son modèle de la citoyenneté, et à quel type d'État chacun est-il associé ?",
+      "answer": "Les droits civils (associés à l'État de droit : propriété, justice, libertés), les droits politiques (associés à l'État parlementaire : vote, éligibilité) et les droits sociaux (associés à l'État-providence : éducation, protection sociale).",
+      "explanation": "Ce modèle, pensé pour le cas britannique, a été critiqué car il ne correspond pas à l'ordre chronologique observé dans d'autres pays (par exemple l'Allemagne bismarckienne, où les droits sociaux ont précédé les droits politiques)."
+    },
+    {
+      "id": "sp_q9",
+      "type": "mcq",
+      "prompt": "Selon Juan Linz, quelle est la principale différence entre un \"État-nation\" et un \"Nation-État\" ?",
+      "choices": [
+        "Il n'y a aucune différence, ce sont des synonymes",
+        "L'État-nation présente une forte homogénéisation culturelle nationale ; le Nation-État fait cohabiter plusieurs cultures ou identités infranationales",
+        "Le Nation-État est nécessairement une dictature",
+        "L'État-nation n'a pas de gouvernement central"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linz cite la France comme l'un des rares États-nations aboutis, et l'Espagne comme un exemple de Nation-État (avec reconnaissance de souverainetés régionales)."
+    },
+    {
+      "id": "sp_q10",
+      "type": "true_false",
+      "prompt": "Selon Joseph Schumpeter, la méthode démocratique se définit essentiellement par une compétition électorale pour l'obtention du pouvoir de décision, plutôt que par la participation active et continue des citoyens.",
+      "correctAnswer": true,
+      "explanation": "Schumpeter développe une conception \"minimaliste\" et élitiste de la démocratie, par opposition aux conceptions participationnistes comme celle de Benjamin Barber."
+    },
+    {
+      "id": "sp_q11",
+      "type": "mcq",
+      "prompt": "Pour Bernard Manin, l'élection en tant que mode de sélection des représentants a un caractère plutôt :",
+      "choices": ["Démocratique, car elle donne le pouvoir au peuple", "Aristocratique, car elle tend à sélectionner les \"meilleurs\"", "Aléatoire, comme le tirage au sort", "Héréditaire"],
+      "correctIndex": 1,
+      "explanation": "Manin distingue trois âges du gouvernement représentatif : le parlementarisme, la démocratie de partis, et la démocratie du public."
+    },
+    {
+      "id": "sp_q12",
+      "type": "open",
+      "prompt": "Selon Moses Finley, en quoi la démocratie athénienne antique différait-elle fondamentalement de la démocratie représentative moderne ?",
+      "answer": "La démocratie athénienne n'avait pas de dimension électorale : elle reposait sur la participation directe, la délibération, le tirage au sort et la rotation des charges (l'élection étant réservée aux fonctions militaires des stratèges), tout en excluant femmes, étrangers et esclaves de la citoyenneté.",
+      "explanation": "La démocratie représentative moderne, à l'inverse, repose fondamentalement sur la délégation par voie électorale."
+    },
+    {
+      "id": "sp_q13",
+      "type": "mcq",
+      "prompt": "Selon la typologie de Barrington Moore sur les origines sociales des régimes politiques, quelle classe sociale, si elle l'emporte, conduit selon lui à l'avènement de la démocratie ?",
+      "choices": ["La paysannerie", "L'aristocratie terrienne", "La bourgeoisie", "Le clergé"],
+      "correctIndex": 2,
+      "explanation": "Pour Moore, la victoire de l'aristocratie tend vers le fascisme, et celle de la paysannerie vers le communisme."
+    },
+    {
+      "id": "sp_q14",
+      "type": "true_false",
+      "prompt": "Selon Norbert Elias, la construction de l'État moderne s'accompagne d'un \"processus de civilisation\" qui transforme les mœurs et abaisse le seuil de tolérance à la violence.",
+      "correctAnswer": true,
+      "explanation": "Elias relie la centralisation du pouvoir (monopoles fiscal et militaire) à des transformations psychologiques et comportementales profondes, illustrées notamment par la domestication de la noblesse à la cour de Versailles."
+    },
+    {
+      "id": "sp_q15",
+      "type": "open",
+      "prompt": "Que signifie la formule d'Ernest Gellner selon laquelle \"le monopole de l'éducation légitime est maintenant plus important et plus décisif que le monopole de la violence légitime\" ?",
+      "answer": "Elle signifie que, dans les sociétés modernes, c'est le contrôle par l'État du système éducatif (qui façonne une culture nationale commune, une \"haute culture\") qui assure la cohésion et la loyauté des citoyens, davantage que la contrainte physique elle-même.",
+      "explanation": "C'est ce que Gellner appelle le passage d'une \"basse culture\" (transmission familiale, sociétés agraires) à une \"haute culture\" (éducation de masse, nécessaire à une économie industrielle)."
+    },
+    {
+      "id": "sp_q16",
+      "type": "mcq",
+      "prompt": "Le concept de \"nationalisme banal\", développé par Michael Billig, désigne :",
+      "choices": [
+        "Le nationalisme sans importance ou anecdotique",
+        "Les manifestations discrètes et omniprésentes du sentiment national dans la vie quotidienne (drapeaux, monnaie, presse...) qui le rendent invisible car banalisé",
+        "Un nationalisme réservé aux petites nations",
+        "Une théorie sur l'origine ancienne des nations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cette thèse est proche de celle de Benedict Anderson sur les \"communautés imaginées\" et le rôle de la presse quotidienne comme \"cérémonie de masse\"."
+    },
+    {
+      "id": "sp_q17",
+      "type": "true_false",
+      "prompt": "L'électoralisation de la démocratie (généralisation du vote comme mode de désignation) s'est faite de façon strictement simultanée dans tous les pays européens.",
+      "correctAnswer": false,
+      "explanation": "Daniele Caramani distingue quatre calendriers différents selon les pays (précoce pour le Royaume-Uni ou la Belgique, tardif pour la France ou l'Autriche dans les années 1920), la bascule définitive intervenant globalement avec la Première Guerre mondiale."
+    },
+    {
+      "id": "sp_q18",
+      "type": "open",
+      "prompt": "Que désigne la \"loi d'airain de l'oligarchie\" formulée par Robert Michels ?",
+      "answer": "L'idée que toute organisation, même démocratique dans son principe (comme un parti politique de masse), tend inévitablement vers la concentration du pouvoir entre les mains d'une minorité dirigeante (une oligarchie), en raison des besoins d'organisation et d'expertise.",
+      "explanation": "Michels développe cette thèse à partir de l'étude du parti social-démocrate allemand, avant de devenir lui-même conseiller de Mussolini."
+    },
+    {
+      "id": "sp_q19",
+      "type": "mcq",
+      "prompt": "Selon Stein Rokkan, quel axe géographique correspond principalement à la dimension de \"construction étatique\" en Europe ?",
+      "choices": ["L'axe Nord-Sud", "L'axe Est-Ouest", "L'axe Ouest-Est", "Il n'y a pas d'axe géographique dans son modèle"],
+      "correctIndex": 2,
+      "explanation": "Pour Rokkan, l'axe Ouest-Est correspond à la construction étatique (dimensions économique et territoriale), tandis que l'axe Nord-Sud correspond à la construction nationale (dimension culturelle et religieuse)."
+    },
+    {
+      "id": "sp_q20",
+      "type": "true_false",
+      "prompt": "Selon la classification de Stein Rokkan et Seymour Lipset, le clivage \"possédants / travailleurs\" est issu de la révolution industrielle, tandis que le clivage \"Église / État\" est issu de la révolution nationale.",
+      "correctAnswer": true,
+      "explanation": "Cette grille des \"clivages\" (cleavages) permet d'expliquer l'origine historique des grandes familles de partis politiques en Europe de l'Ouest."
+    }
+  ]
+}
