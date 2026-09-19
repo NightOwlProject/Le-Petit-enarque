@@ -1,10 +1,11 @@
 {
-  "version": 1,
+  "version": 2,
   "badges": [
     {
       "id": "badge_streak3_exemple",
       "title": "En feu !",
       "description": "3 bonnes réponses d'affilée sur le thème Exemple",
+      "icon": "🔥",
       "condition": { "type": "streak", "topic": "exemple", "count": 3 },
       "revokeCondition": { "type": "accuracy_below", "topic": "exemple", "window": 5, "threshold": 0.5 }
     },
@@ -12,7 +13,15 @@
       "id": "badge_volume5",
       "title": "Assidu·e",
       "description": "5 questions répondues au total",
+      "icon": "📚",
       "condition": { "type": "volume", "count": 5 }
+    },
+    {
+      "id": "badge_volume20",
+      "title": "Marathonien·ne",
+      "description": "20 questions répondues au total",
+      "icon": "🏅",
+      "condition": { "type": "volume", "count": 20 }
     }
   ]
 }
