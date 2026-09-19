@@ -1,0 +1,210 @@
+{
+  "id": "da2",
+  "title": "Droit administratif : police, SP et actes",
+  "description": "Police administrative, service public, actes unilatéraux et contrats administratifs",
+  "questions": [
+    {
+      "id": "da2_q1",
+      "type": "mcq",
+      "prompt": "Quelles sont les trois composantes matérielles classiques de l'ordre public, énumérées à l'article L. 2212-2 du CGCT ?",
+      "choices": ["Sécurité, tranquillité et salubrité publiques", "Moralité, dignité et sécurité", "Ordre, paix et prospérité", "Salubrité, moralité et continuité"],
+      "correctIndex": 0,
+      "explanation": "Ces trois composantes figurent dans les pouvoirs de police du maire depuis la loi de 1884."
+    },
+    {
+      "id": "da2_q2",
+      "type": "open",
+      "prompt": "Sous quelles deux conditions la moralité publique peut-elle fonder une mesure de police administrative, selon l'arrêt Société Les Films Lutétia (CE, 1959) ?",
+      "answer": "Il faut des circonstances locales particulières, et un risque de trouble à l'ordre public.",
+      "explanation": "Contrairement à la dignité de la personne humaine, la moralité publique n'est donc pas une composante autonome de l'ordre public."
+    },
+    {
+      "id": "da2_q3",
+      "type": "true_false",
+      "prompt": "Selon l'arrêt Commune de Morsang-sur-Orge (CE, Ass., 1995), le respect de la dignité de la personne humaine permet au maire d'interdire une attraction même en l'absence de circonstances locales particulières.",
+      "correctAnswer": true,
+      "explanation": "La dignité de la personne humaine est reconnue comme une composante autonome et objective de l'ordre public (l'affaire concernait le \"lancer de nains\")."
+    },
+    {
+      "id": "da2_q4",
+      "type": "mcq",
+      "prompt": "Quel critère permet de distinguer la police administrative (préventive) de la police judiciaire (répressive) lorsqu'une opération de police cause un dommage ?",
+      "choices": ["Le grade de l'agent impliqué", "L'objet précis de la mesure : recherche d'une infraction déterminée (PJ) ou surveillance générale (PA)", "Le lieu où intervient l'agent", "La nature de l'arme utilisée"],
+      "correctIndex": 1,
+      "explanation": "Ce critère peut faire basculer la qualification en cours d'opération, comme l'illustre l'arrêt Dlle Motsch (TC, 1977) : un barrage routier (PA) forcé par un véhicule devient une opération de PJ."
+    },
+    {
+      "id": "da2_q5",
+      "type": "open",
+      "prompt": "Qui exerce, en principe, le pouvoir de police administrative générale au niveau national, selon l'arrêt Labonne (CE, 1919) ?",
+      "answer": "Le chef du gouvernement (aujourd'hui le Premier ministre, sous réserve des prérogatives propres du Président de la République), en dehors de toute habilitation législative expresse.",
+      "explanation": "Au niveau local, ce pouvoir est partagé entre le maire (article L. 2212-1 du CGCT) et le préfet (article L. 2215-1 du CGCT)."
+    },
+    {
+      "id": "da2_q6",
+      "type": "mcq",
+      "prompt": "Dans quel sens une autorité de police locale peut-elle aggraver une réglementation de police prise par une autorité supérieure (CE, Commune de Néris-les-Bains, 1902) ?",
+      "choices": ["Dans le sens de l'assouplissement uniquement", "Dans le sens de l'aggravation uniquement, en raison de circonstances locales", "Dans les deux sens indifféremment", "Elle ne peut jamais s'en écarter"],
+      "correctIndex": 1,
+      "explanation": "Le cumul de réglementations de police est possible mais seulement dans le sens du renforcement, jamais de l'assouplissement."
+    },
+    {
+      "id": "da2_q7",
+      "type": "true_false",
+      "prompt": "Le pouvoir de police administrative peut être délégué par contrat à une personne privée.",
+      "correctAnswer": false,
+      "explanation": "Le caractère unilatéral de la police administrative interdit toute délégation contractuelle à une personne privée (CE, Ville de Castelnaudary, 1932) ; le Conseil constitutionnel y voit même un principe inhérent à l'identité constitutionnelle de la France (QPC Société Air France, 2021)."
+    },
+    {
+      "id": "da2_q8",
+      "type": "mcq",
+      "prompt": "Quel triple test le juge administratif applique-t-il pour contrôler la proportionnalité d'une mesure de police administrative (CE, Benjamin, 1933, précisé en 2011) ?",
+      "choices": ["Légalité, opportunité, urgence", "Compétence, forme, procédure", "Adaptation, nécessité, proportionnalité stricto sensu", "Objectivité, neutralité, continuité"],
+      "correctIndex": 2,
+      "explanation": "La mesure doit être efficace au regard de son objectif, sans alternative moins attentatoire aux libertés, et ses effets positifs doivent l'emporter sur ses effets préjudiciables."
+    },
+    {
+      "id": "da2_q9",
+      "type": "open",
+      "prompt": "Qu'est-ce que le \"privilège du préalable\" en droit administratif ?",
+      "answer": "Le principe selon lequel les décisions de l'administration sont présumées légales et exécutoires dès leur édiction, sans que l'administration ait besoin de saisir au préalable le juge pour les faire appliquer (CE, Huglo, 1982).",
+      "explanation": "Ce privilège se distingue de l'exécution forcée (ou \"privilège de l'exécution d'office\"), qui n'est possible qu'en cas de texte l'autorisant ou d'urgence caractérisée (TC, Société immobilière Saint-Just, 1902)."
+    },
+    {
+      "id": "da2_q10",
+      "type": "true_false",
+      "prompt": "L'arrêt Blanco (TC, 1873) est traditionnellement présenté comme l'acte fondateur du droit administratif français, en consacrant le service public comme critère de compétence du juge administratif.",
+      "correctAnswer": true,
+      "explanation": "Cette lecture a été réactivée par l'école du service public (notamment Léon Duguit) au tournant du XXe siècle."
+    },
+    {
+      "id": "da2_q11",
+      "type": "mcq",
+      "prompt": "Quels sont les trois critères cumulatifs posés par l'arrêt Narcy (CE, 1963) pour reconnaître une mission de service public confiée à une personne privée ?",
+      "choices": [
+        "Mission d'intérêt général, prérogatives de puissance publique, contrôle de l'activité par la personne publique",
+        "Ancienneté de l'activité, rentabilité, nombre d'usagers",
+        "Statut associatif, gratuité, accès universel",
+        "Financement public majoritaire, personnel titulaire, local dédié"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'arrêt APREI (CE, 2007) a assoupli ce cadre : en l'absence de prérogatives de puissance publique, un faisceau d'indices peut suffire à caractériser un service public."
+    },
+    {
+      "id": "da2_q12",
+      "type": "open",
+      "prompt": "Quels sont les trois éléments retenus par l'arrêt Union syndicale des industries aéronautiques (CE, Ass., 1956) pour distinguer un SPIC d'un SPA lorsque les textes ne le précisent pas ?",
+      "answer": "L'objet de l'activité, l'origine des ressources (redevances des usagers ou fonds publics), et les modalités d'organisation et de fonctionnement du service.",
+      "explanation": "Il existe une présomption réfragable d'administrativité, renversée si le service fonctionne comme une entreprise privée ordinaire."
+    },
+    {
+      "id": "da2_q13",
+      "type": "true_false",
+      "prompt": "Selon l'arrêt Ville de Melun (CE, 1990), la détention de prérogatives de puissance publique est une condition indispensable pour qu'une personne privée soit regardée comme chargée d'une mission de service public.",
+      "correctAnswer": false,
+      "explanation": "Cet arrêt a ouvert la voie à une approche plus souple, confirmée par l'arrêt APREI (2007), fondée sur un faisceau d'indices en l'absence de prérogatives de puissance publique."
+    },
+    {
+      "id": "da2_q14",
+      "type": "mcq",
+      "prompt": "Quelles sont les \"lois du service public\" identifiées par Louis Rolland dans les années 1930 ?",
+      "choices": ["Légalité, transparence, gratuité", "Égalité, mutabilité (adaptabilité), continuité", "Efficacité, rentabilité, neutralité", "Unité, indivisibilité, laïcité"],
+      "correctIndex": 1,
+      "explanation": "La neutralité est souvent ajoutée comme quatrième principe, distinct de l'égalité, en lien étroit avec la laïcité mais plus large qu'elle."
+    },
+    {
+      "id": "da2_q15",
+      "type": "open",
+      "prompt": "Que permet la mutabilité (ou adaptabilité) du service public, illustrée par l'arrêt Compagnie du gaz de Déville-lès-Rouen (CE, 1902) ?",
+      "answer": "Elle permet à l'administration de modifier ou de résilier unilatéralement les modalités d'exécution d'un service public (par exemple un contrat de concession) pour l'adapter à l'intérêt général, l'usager ou le cocontractant n'ayant pas de droit acquis au maintien du service dans sa forme initiale.",
+      "explanation": "Cette prérogative doit être compensée financièrement pour le cocontractant, au nom du principe de l'équation financière du contrat."
+    },
+    {
+      "id": "da2_q16",
+      "type": "mcq",
+      "prompt": "Quel arrêt reconnaît pour la première fois le droit de grève des agents publics (avec possibilité de limitations), après une jurisprudence antérieure qui l'interdisait au nom de la continuité du service public ?",
+      "choices": ["CE, Winkell, 1909", "CE, Dehaene, 1950", "CE, Barel, 1954", "CE, Doublet, 1959"],
+      "correctIndex": 1,
+      "explanation": "L'arrêt Winkell (1909) interdisait auparavant toute grève des fonctionnaires au nom de la continuité du service public."
+    },
+    {
+      "id": "da2_q17",
+      "type": "true_false",
+      "prompt": "Le principe de neutralité du service public s'applique en principe directement aux usagers du service, qui doivent s'abstenir de manifester leurs convictions religieuses.",
+      "correctAnswer": false,
+      "explanation": "La neutralité s'applique aux personnes chargées du service public (agents) et non aux usagers, sauf exception prévue par la loi (par exemple pour les élèves de l'enseignement public)."
+    },
+    {
+      "id": "da2_q18",
+      "type": "mcq",
+      "prompt": "Depuis quel arrêt les actes de \"droit souple\" (lignes directrices, recommandations, communiqués...) peuvent-ils être déférés au juge de l'excès de pouvoir lorsqu'ils produisent des effets notables ?",
+      "choices": ["CE, Dame Lamotte, 1950", "CE, Crédit Foncier de France, 1970", "CE, Fairvesta et Numericable, 2016", "CE, GISTI, 2020"],
+      "correctIndex": 2,
+      "explanation": "L'arrêt GISTI (2020) a ensuite synthétisé ce mouvement jurisprudentiel initié en 2016, en visant tous les documents de portée générale, matérialisés ou non, ayant des effets notables sur les droits d'autrui."
+    },
+    {
+      "id": "da2_q19",
+      "type": "open",
+      "prompt": "Que sont les mesures d'ordre intérieur (MOI), et comment leur champ a-t-il évolué depuis l'arrêt Marie et Hardouin (CE, Ass., 1995) ?",
+      "answer": "Ce sont des mesures relatives au fonctionnement interne d'un service (prison, armée...) traditionnellement jugées trop insignifiantes pour être des actes attaquables. Depuis Marie et Hardouin, le juge apprécie leur justiciabilité au cas par cas selon la nature et la gravité de la mesure ; l'arrêt Boussouar (CE, Ass., 2007) a ensuite adopté une approche catégorielle, rendant une catégorie de mesures définitivement justiciable une fois sortie du champ des MOI.",
+      "explanation": "L'adage latin \"de minimis non curat praetor\" (le juge ne s'occupe pas des affaires insignifiantes) résume la logique initiale des MOI."
+    },
+    {
+      "id": "da2_q20",
+      "type": "true_false",
+      "prompt": "Un contrat conclu entre deux personnes publiques est présumé être un contrat administratif, sauf s'il ne fait naître entre les parties que des rapports de droit privé.",
+      "correctAnswer": true,
+      "explanation": "Cette présomption, posée par l'arrêt UAP (TC, 1983), est renversable, par exemple pour la gestion du domaine privé entre deux personnes publiques."
+    },
+    {
+      "id": "da2_q21",
+      "type": "mcq",
+      "prompt": "Quel critère permet d'identifier un contrat administratif conclu entre une personne publique et une personne privée, en l'absence de qualification législative ?",
+      "choices": ["Le seul montant du contrat", "Le cumul d'un critère organique et d'un critère matériel (lien avec le service public ou clause exorbitante)", "La nationalité du cocontractant", "La durée du contrat uniquement"],
+      "correctIndex": 1,
+      "explanation": "Le critère matériel peut résulter soit d'un lien avec l'exécution même du service public (CE, Époux Bertin, 1956), soit de la présence d'une clause exorbitante du droit commun (CE, Granits porphyroïdes des Vosges, 1912 ; TC, Axa France IARD, 2014)."
+    },
+    {
+      "id": "da2_q22",
+      "type": "open",
+      "prompt": "Quelles sont les trois conditions cumulatives de la force majeure en matière de contrats administratifs, qui libère le cocontractant de ses obligations (CE, Compagnie des messageries maritimes, 1909) ?",
+      "answer": "L'extériorité de l'événement par rapport aux parties, son imprévisibilité, et son irrésistibilité (impossibilité durable d'exécuter le contrat).",
+      "explanation": "Elle se distingue de la théorie de l'imprévision, qui suppose un bouleversement seulement provisoire et temporaire de l'équilibre du contrat, l'exécution restant possible."
+    },
+    {
+      "id": "da2_q23",
+      "type": "mcq",
+      "prompt": "Quelles sont les quatre prérogatives classiques reconnues à l'administration dans l'exécution d'un contrat administratif ?",
+      "choices": [
+        "Contrôle, sanction, résiliation unilatérale, modification unilatérale",
+        "Négociation, renouvellement, cession, sous-traitance",
+        "Suspension, arbitrage, médiation, conciliation",
+        "Publication, notification, transmission, archivage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ces prérogatives exorbitantes du droit commun sont en contrepartie du principe de l'équation financière : toute modification unilatérale par l'administration ouvre droit à indemnisation pour le cocontractant (CE, Compagnie générale française des tramways, 1910)."
+    },
+    {
+      "id": "da2_q24",
+      "type": "true_false",
+      "prompt": "La théorie du fait du prince et la théorie de l'imprévision permettent toutes deux d'indemniser le cocontractant de l'administration en cas d'aléas extérieurs aux parties.",
+      "correctAnswer": true,
+      "explanation": "Le fait du prince vise l'action des pouvoirs publics eux-mêmes (lois, décrets) qui bouleverse l'équilibre du contrat ; l'imprévision vise des circonstances extérieures aux parties (économiques, climatiques...)."
+    },
+    {
+      "id": "da2_q25",
+      "type": "open",
+      "prompt": "Que distingue-t-on entre une concession et un marché public de service, en matière de gestion privée d'un service public ?",
+      "answer": "Dans un marché public, le prestataire est rémunéré directement par l'administration pour une prestation de services. Dans une concession, le cocontractant assume la responsabilité de l'exploitation du service et se rémunère principalement par des redevances perçues auprès des usagers, ce qui implique une prise de risque plus importante.",
+      "explanation": "La gestion contractuelle est plus fréquente pour les services publics industriels et commerciaux (SPIC)."
+    },
+    {
+      "id": "da2_q26",
+      "type": "mcq",
+      "prompt": "Depuis quel arrêt le Conseil d'État admet-il qu'une personne publique intervienne comme opérateur économique dès lors qu'elle justifie d'un simple intérêt public (incluant la carence de l'initiative privée), sans exiger de circonstances particulières de temps et de lieu ?",
+      "choices": ["CE, Casanova, 1901", "CE, Chambre syndicale du commerce en détail de Nevers, 1930", "CE, Ordre des avocats au barreau de Paris, 2006", "CE, Daudignac, 1951"],
+      "correctIndex": 2,
+      "explanation": "Cette évolution jurisprudentielle a progressivement assoupli les conditions d'intervention économique des personnes publiques, autrefois plus strictement encadrées (Casanova, 1901 ; Nevers, 1930)."
+    }
+  ]
+}

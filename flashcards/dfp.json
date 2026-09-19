@@ -1,0 +1,132 @@
+﻿{
+  "id": "dfp",
+  "title": "Droit de la fonction publique",
+  "description": "Réviser statut, carrière, droits et obligations des agents",
+  "cards": [
+    {
+      "id": "card_dfp_q1",
+      "front": "Quelle loi de 1946 crée le premier statut général des fonctionnaires de la Ve... en réalité de la IVe République, dans une logique démocratique (participation, liberté syndicale) ?",
+      "back": "Le tout premier statut des fonctionnaires, adopté sous le régime de Vichy (loi du 14 septembre 1941), était en réalité peu appliqué et ouvertement discriminatoire ; c'est la loi de 1946 qui fonde le paradigme démocratique du droit de la fonction publique."
+    },
+    {
+      "id": "card_dfp_q2",
+      "front": "Quelles sont les quatre lois qui composent le statut général de la fonction publique adopté dans les années 1980 ?",
+      "back": "Ces textes ont depuis été codifiés dans le Code général de la fonction publique (CGFP), entré en vigueur en 2022."
+    },
+    {
+      "id": "card_dfp_q3",
+      "front": "Un fonctionnaire est recruté pour occuper un emploi précis et déterminé, qu'il conserve durant toute sa carrière.",
+      "back": "Le fonctionnaire est titulaire d'un grade au sein d'un corps (ou d'un cadre d'emplois dans la fonction publique territoriale), qui lui donne vocation à occuper l'un des emplois correspondants : le grade appartient au fonctionnaire, l'emploi est à la disposition de l'administration."
+    },
+    {
+      "id": "card_dfp_q4",
+      "front": "Quelles sont les trois catégories hiérarchiques de la fonction publique française ?",
+      "back": "Le niveau de recrutement requis est en principe la licence pour la catégorie A et le brevet des collèges pour la catégorie C, même si dans les faits la quasi-totalité des agents de catégorie C sont aujourd'hui titulaires du baccalauréat."
+    },
+    {
+      "id": "card_dfp_q5",
+      "front": "Quelles sont les trois conditions cumulatives identifiées par l'arrêt Geslin (CE, Assemblée, 1967) pour qu'une procédure de recrutement soit qualifiée de concours ?",
+      "back": "Exception notable : dans la fonction publique territoriale, le concours débouche sur une liste d'aptitude sans classement, l'État ne pouvant imposer aux collectivités territoriales l'ordre dans lequel elles doivent recruter."
+    },
+    {
+      "id": "card_dfp_q6",
+      "front": "Depuis l'arrêt Berkani (Tribunal des conflits, 1996), quelle règle s'applique pour qualifier le personnel non statutaire travaillant pour un service public administratif ?",
+      "back": "Cette solution a mis fin à une jurisprudence antérieure complexe et peu prévisible, fondée sur la nature précise des tâches effectuées par l'agent."
+    },
+    {
+      "id": "card_dfp_q7",
+      "front": "Un agent contractuel de la fonction publique ne peut jamais être recruté directement en contrat à durée indéterminée (CDI).",
+      "back": "Le primo-recrutement en CDI, initialement très restreint, a été élargi (fonction publique d'État et hospitalière, sous conditions) ; il reste en principe impossible dans la fonction publique territoriale."
+    },
+    {
+      "id": "card_dfp_q8",
+      "front": "Au bout de combien d'années un contrat à durée déterminée dans la fonction publique doit-il en principe être transformé en contrat à durée indéterminée, sur demande de l'agent ?",
+      "back": "Cette règle, issue notamment de la loi Sauvadet de 2012 et de la loi du 20 avril 2016, s'inscrit dans le mouvement de \"travaillisation\" du droit de la fonction publique, sous l'influence du droit de l'Union européenne."
+    },
+    {
+      "id": "card_dfp_q9",
+      "front": "Quelles sont les quatre positions statutaires dans lesquelles un fonctionnaire peut se trouver ?",
+      "back": "Le détachement est parfois qualifié de \"droit au départ\", la disponibilité de \"fenêtre sur des projets personnels\", et le congé parental d'une simple \"parenthèse\" dans la carrière."
+    },
+    {
+      "id": "card_dfp_q10",
+      "front": "Un fonctionnaire en position de disponibilité conserve ses droits à l'avancement et à la retraite pendant toute la durée de sa disponibilité.",
+      "back": "Contrairement au détachement, la disponibilité ne conserve ni les droits à l'avancement ni les droits à la retraite ; seul le droit à réintégration est garanti (l'administration devant proposer trois postes correspondant au grade)."
+    },
+    {
+      "id": "card_dfp_q11",
+      "front": "Selon l'arrêt Winkell (CE, 1909), le principe de continuité du service public justifiait :",
+      "back": "Cette interdiction a été renversée par l'arrêt Dehaene (CE, Assemblée, 1950), qui reconnaît le droit de grève des fonctionnaires tout en admettant des limitations possibles."
+    },
+    {
+      "id": "card_dfp_q12",
+      "front": "Que consacre l'arrêt Barel (CE, Assemblée, 1954) en matière d'accès aux emplois publics ?",
+      "back": "Ce principe trouve son fondement textuel dans l'article 6 de la Déclaration des droits de l'homme et du citoyen de 1789."
+    },
+    {
+      "id": "card_dfp_q13",
+      "front": "L'obligation de neutralité impose à l'agent public de s'abstenir de manifester ses opinions religieuses dans l'exercice de ses fonctions.",
+      "back": "Cette obligation, associée au principe de laïcité, ne s'applique en principe pas aux usagers du service public, sauf exception prévue par la loi."
+    },
+    {
+      "id": "card_dfp_q14",
+      "front": "Quelle est la différence essentielle entre l'obligation de réserve et l'obligation de neutralité d'un agent public ?",
+      "back": "L'obligation de réserve, non codifiée dans le statut général, est appréciée au cas par cas selon la nature des fonctions, le rang hiérarchique, le lieu et la publicité donnée aux propos de l'agent."
+    },
+    {
+      "id": "card_dfp_q15",
+      "front": "Dans quel cas un agent public peut-il légalement désobéir à un ordre de son supérieur hiérarchique, selon la jurisprudence Langneur (CE, 1944), aujourd'hui codifiée ?",
+      "back": "En dehors de ce cas exceptionnel, le principe reste l'obéissance hiérarchique ; l'agent demeure par ailleurs toujours responsable de l'exécution des tâches qui lui sont confiées."
+    },
+    {
+      "id": "card_dfp_q16",
+      "front": "La protection fonctionnelle, dont bénéficie un agent public mis en cause à raison de ses fonctions, trouve son origine historique dans :",
+      "back": "Elle est aujourd'hui codifiée au CGFP et peut être refusée en cas de faute personnelle détachable de l'exercice des fonctions."
+    },
+    {
+      "id": "card_dfp_q17",
+      "front": "Le secret professionnel de l'agent public est absolu et ne peut jamais être levé.",
+      "back": "L'administration peut expressément délier l'agent de son secret professionnel ; par ailleurs, l'agent reste tenu de dénoncer tout crime ou délit dont il a connaissance (article 40 du code de procédure pénale)."
+    },
+    {
+      "id": "card_dfp_q18",
+      "front": "Quel principe interdit en règle générale à un agent public à temps complet de cumuler ses fonctions avec une activité privée lucrative ?",
+      "back": "Des dérogations existent, notamment pour les œuvres de l'esprit, certaines activités accessoires soumises à autorisation, ou la création d'entreprise à temps partiel (dans la limite de trois ans)."
+    },
+    {
+      "id": "card_dfp_q19",
+      "front": "Qu'est-ce que le RIFSEEP, créé par un décret de 2014 ?",
+      "back": "Les primes et indemnités peuvent représenter jusqu'à 30-40% de la rémunération pour les catégories A et A+."
+    },
+    {
+      "id": "card_dfp_q20",
+      "front": "La condition de nationalité pour accéder à la fonction publique française est aujourd'hui absolue et ne souffre aucune exception.",
+      "back": "Elle est devenue résiduelle avec la libre circulation des travailleurs au sein de l'Union européenne : les emplois publics sont ouverts aux citoyens de l'UE, de l'EEE et d'Andorre, sauf pour les fonctions non séparables de l'exercice de la souveraineté ou des prérogatives de puissance publique."
+    },
+    {
+      "id": "card_dfp_q21",
+      "front": "Quelle est la durée maximale, sur l'ensemble d'une carrière, du congé parental d'un fonctionnaire ?",
+      "back": "Contrairement au détachement, le congé parental ne conserve pas les droits à la retraite, mais conserve les droits à l'avancement."
+    },
+    {
+      "id": "card_dfp_q22",
+      "front": "Que sont les \"lignes directrices de gestion\", introduites par la loi de transformation de la fonction publique de 2019 ?",
+      "back": "Cette réforme s'accompagne d'un recentrage des commissions administratives paritaires (CAP) sur les seules décisions défavorables aux agents (discipline, refus de titularisation...), avec suppression de leur compétence en matière de mutation, d'avancement et de promotion interne."
+    },
+    {
+      "id": "card_dfp_q23",
+      "front": "Quel arrêt du Conseil d'État (1936) organise le pouvoir d'un chef de service d'édicter des mesures d'organisation interne, même sans texte l'y habilitant ?",
+      "back": "Ce pouvoir d'organisation du service, inhérent à la fonction de chef de service, complète les sources réglementaires du droit de la fonction publique."
+    },
+    {
+      "id": "card_dfp_q24",
+      "front": "La sortie de la fonction publique pour perte de la nationalité française ou déchéance des droits civiques est une sanction disciplinaire.",
+      "back": "Ce sont des cas de \"sortie constatée\" : l'administration se trouve en compétence liée et doit se contenter de constater la perte de la qualité de fonctionnaire, sans qu'il s'agisse d'une sanction."
+    },
+    {
+      "id": "card_dfp_q25",
+      "front": "Quelles sont les deux obligations de l'administration lorsqu'un fonctionnaire est illégalement évincé puis doit être réintégré, selon la jurisprudence Guille (1959) et Rodière (1925) ?",
+      "back": "S'y ajoute une obligation de réparation financière (théorie de l'indemnité), qui tient compte des revenus que l'agent a pu percevoir par ailleurs pendant la période d'éviction."
+    }
+  ]
+}

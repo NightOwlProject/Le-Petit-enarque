@@ -1,6 +1,22 @@
 {
-  "version": 5,
+  "version": 6,
   "badges": [
+    {
+      "id": "badge_streak5_da2",
+      "title": "Gardien·ne de l'ordre",
+      "description": "5 bonnes réponses d'affilée sur police, service public et actes administratifs",
+      "icon": "🚨",
+      "condition": { "type": "streak", "topic": "da2", "count": 5 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "da2", "window": 8, "threshold": 0.5 }
+    },
+    {
+      "id": "badge_streak5_dfp",
+      "title": "Haut·e fonctionnaire",
+      "description": "5 bonnes réponses d'affilée en droit de la fonction publique",
+      "icon": "🎓",
+      "condition": { "type": "streak", "topic": "dfp", "count": 5 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "dfp", "window": 8, "threshold": 0.5 }
+    },
     {
       "id": "badge_streak5_contentieux",
       "title": "Procédurier·ère",
@@ -155,6 +171,34 @@
       "condition": { "type": "accuracy_above", "topic": "dmue", "window": 10, "threshold": 0.9 }
     },
     {
+      "id": "badge_expert_da2",
+      "title": "Autorité administrative",
+      "description": "15 questions sur police, service public et actes administratifs répondues",
+      "icon": "🚨",
+      "condition": { "type": "volume", "topic": "da2", "count": 15 }
+    },
+    {
+      "id": "badge_expert_dfp",
+      "title": "DRH de l'État",
+      "description": "15 questions de droit de la fonction publique répondues",
+      "icon": "🎓",
+      "condition": { "type": "volume", "topic": "dfp", "count": 15 }
+    },
+    {
+      "id": "badge_precision_da2",
+      "title": "Précision administrative",
+      "description": "90% de bonnes réponses sur les 10 dernières questions de police, SP et actes administratifs",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "da2", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_precision_dfp",
+      "title": "Carrière exemplaire",
+      "description": "90% de bonnes réponses sur les 10 dernières questions de droit de la fonction publique",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "dfp", "window": 10, "threshold": 0.9 }
+    },
+    {
       "id": "badge_polymathe",
       "title": "Polymathe",
       "description": "Au moins 15 questions répondues dans chacun des trois thèmes (constitution, CT, arrêts)",
@@ -183,8 +227,8 @@
     },
     {
       "id": "badge_pentathlete",
-      "title": "Pentathlète",
-      "description": "Au moins 10 questions répondues dans chacun des cinq thèmes de quiz",
+      "title": "Touche-à-tout",
+      "description": "Au moins 10 questions répondues dans chacun des sept thèmes de quiz",
       "icon": "🏋️",
       "condition": {
         "type": "all_of",
@@ -193,7 +237,9 @@
           { "type": "volume", "topic": "ct", "count": 10 },
           { "type": "volume", "topic": "arrets_quiz", "count": 10 },
           { "type": "volume", "topic": "contentieux_admin", "count": 10 },
-          { "type": "volume", "topic": "dmue", "count": 10 }
+          { "type": "volume", "topic": "dmue", "count": 10 },
+          { "type": "volume", "topic": "da2", "count": 10 },
+          { "type": "volume", "topic": "dfp", "count": 10 }
         ]
       }
     },
