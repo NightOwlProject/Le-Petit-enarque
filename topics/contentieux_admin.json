@@ -1,0 +1,207 @@
+{
+  "id": "contentieux_admin",
+  "title": "Contentieux administratif",
+  "description": "Juridictions, recours, recevabilité, instance et jugement",
+  "questions": [
+    {
+      "id": "ca_q1",
+      "type": "mcq",
+      "prompt": "Combien de livres compose le Code de justice administrative (CJA), qui comprend des dispositions de valeur à la fois légale et réglementaire ?",
+      "choices": ["5", "7", "9", "12"],
+      "correctIndex": 2,
+      "explanation": "Le CJA comprend 9 livres, précédés d'un titre préliminaire contenant les principes généraux du droit (PGD)."
+    },
+    {
+      "id": "ca_q2",
+      "type": "open",
+      "prompt": "Que change l'arrêt du Conseil d'État Czabaj (2016) concernant le délai de recours contre une décision administrative individuelle mal notifiée ?",
+      "answer": "Avant Czabaj, l'absence de mention des voies et délais de recours rendait la contestation possible indéfiniment. Depuis 2016, une décision aux effets consolidés dans le temps ne peut plus être contestée au-delà d'un délai raisonnable, fixé en règle générale à 1 an, au nom de la sécurité juridique.",
+      "explanation": "Le délai normal de recours contentieux reste par ailleurs de 2 mois (article R. 421-1 du CJA) lorsque les voies et délais sont correctement mentionnés."
+    },
+    {
+      "id": "ca_q3",
+      "type": "mcq",
+      "prompt": "D'après la décision du Conseil constitutionnel du 23 janvier 1987 (Conseil de la concurrence), quel critère permet de dégager le \"noyau dur\" de compétence du juge administratif ?",
+      "choices": ["Le critère du service public (Duguit)", "Le critère des prérogatives de puissance publique - PPP (Hauriou)", "Le critère organique uniquement", "Le critère de l'intérêt général"],
+      "correctIndex": 1,
+      "explanation": "Le noyau dur du juge administratif couvre l'annulation et la réformation des décisions prises par des personnes publiques dans l'exercice de prérogatives de puissance publique (PPP) — approche restrictive privilégiant Hauriou sur Duguit."
+    },
+    {
+      "id": "ca_q4",
+      "type": "true_false",
+      "prompt": "Les tribunaux administratifs (TA) ont été créés par un décret-loi du 30 septembre 1953, remplaçant les anciens conseils de préfecture.",
+      "correctAnswer": true,
+      "explanation": "La France compte aujourd'hui 42 tribunaux administratifs."
+    },
+    {
+      "id": "ca_q5",
+      "type": "mcq",
+      "prompt": "Combien de cours administratives d'appel (CAA), créées par la loi du 31 décembre 1987, la France compte-t-elle aujourd'hui ?",
+      "choices": ["5", "7", "9", "13"],
+      "correctIndex": 2,
+      "explanation": "Les CAA sont passées de 5 à 9 : Paris, Versailles, Douai, Lyon, Marseille, Toulouse, Bordeaux, Nantes et Nancy."
+    },
+    {
+      "id": "ca_q6",
+      "type": "open",
+      "prompt": "En quelle année le Conseil d'État a-t-il été créé, et où siège-t-il ?",
+      "answer": "Le Conseil d'État a été créé par la Constitution de l'an VIII (1799) ; il siège au Palais-Royal, à Paris.",
+      "explanation": "Il est présidé par un vice-président, nommé par décret du Président de la République."
+    },
+    {
+      "id": "ca_q7",
+      "type": "mcq",
+      "prompt": "Selon la classification de Laferrière, combien de types de recours contentieux existe-t-il traditionnellement ?",
+      "choices": ["2", "3", "4", "6"],
+      "correctIndex": 2,
+      "explanation": "Le recours pour excès de pouvoir (REP), le recours de plein contentieux (RPC), le contentieux de l'interprétation et le contentieux de la répression."
+    },
+    {
+      "id": "ca_q8",
+      "type": "true_false",
+      "prompt": "Le recours pour excès de pouvoir (REP) est ouvert même sans texte l'autorisant expressément (arrêt Dame Lamotte, 1950).",
+      "correctAnswer": true,
+      "explanation": "Le Conseil d'État a affirmé le caractère de recours ouvert même sans texte, avec une appréciation souple de l'intérêt à agir."
+    },
+    {
+      "id": "ca_q9",
+      "type": "open",
+      "prompt": "Que consacre l'arrêt Gomel (CE, 1914) en matière de contrôle du juge sur les actes administratifs ?",
+      "answer": "Il marque le point de départ du contrôle de la qualification juridique des faits : le juge ne se contente plus de vérifier l'application d'une décision à des faits déjà qualifiés, il contrôle aussi la qualification elle-même.",
+      "explanation": "C'est le premier des cinq degrés de contrôle de l'erreur d'appréciation, qui va de l'absence de contrôle (pouvoir discrétionnaire) au contrôle de proportionnalité et au contrôle du bilan."
+    },
+    {
+      "id": "ca_q10",
+      "type": "mcq",
+      "prompt": "Dans quels deux domaines le juge administratif exerce-t-il un contrôle de proportionnalité, notamment via le triple test \"nécessaire, adapté, proportionné\" (CE, Benjamin, 1933) ?",
+      "choices": ["Le contentieux fiscal et le droit des étrangers", "La police administrative et les sanctions disciplinaires", "Les marchés publics et le droit de l'urbanisme", "Le droit électoral et la fonction publique"],
+      "correctIndex": 1,
+      "explanation": "En matière disciplinaire, ce contrôle exige des faits établis constitutifs d'une faute et une sanction strictement proportionnée (CE, Dahan, 2014)."
+    },
+    {
+      "id": "ca_q11",
+      "type": "open",
+      "prompt": "Qu'est-ce que la théorie du bilan, consacrée par l'arrêt Ville Nouvelle Est (CE, 1971) ?",
+      "answer": "Le juge apprécie une opération (par exemple une expropriation) en mettant en balance ses avantages (intérêt général du projet) et ses inconvénients (coût financier, atteintes à la propriété, dommages sociaux ou environnementaux).",
+      "explanation": "C'est le degré le plus poussé du contrôle de l'erreur d'appréciation, au-delà du contrôle normal ou du contrôle de proportionnalité."
+    },
+    {
+      "id": "ca_q12",
+      "type": "true_false",
+      "prompt": "L'arrêt Camino (CE, 1916) concerne le contrôle de l'exactitude matérielle des faits sur lesquels se fonde une décision administrative.",
+      "correctAnswer": true,
+      "explanation": "Une décision fondée sur des faits matériellement inexacts est illégale ; c'est un cas fréquent en contentieux disciplinaire."
+    },
+    {
+      "id": "ca_q13",
+      "type": "mcq",
+      "prompt": "Quel vice est caractérisé par l'utilisation d'un pouvoir dans un but autre que celui pour lequel il a été conféré (CE, Pariset, 1875) ?",
+      "choices": ["L'erreur de droit", "Le vice de procédure", "Le détournement de pouvoir", "L'incompétence"],
+      "correctIndex": 2,
+      "explanation": "Deux figures classiques : détourner un pouvoir d'un intérêt public vers un autre intérêt public, ou l'utiliser à des fins purement privées."
+    },
+    {
+      "id": "ca_q14",
+      "type": "open",
+      "prompt": "Quelle règle pose l'arrêt Société Intercopie (CE, 1953) concernant les moyens invocables devant le juge administratif ?",
+      "answer": "Les moyens de légalité interne et de légalité externe doivent tous deux être invoqués dans le délai de recours contentieux de 2 mois ; passé ce délai, on ne peut plus changer de \"cause juridique\" en invoquant un moyen relevant de l'autre catégorie.",
+      "explanation": "Cette règle structure toute l'articulation entre recevabilité des moyens et délai de recours."
+    },
+    {
+      "id": "ca_q15",
+      "type": "mcq",
+      "prompt": "Quelle est la durée du délai de recours contentieux de droit commun contre une décision administrative (article R. 421-1 du CJA) ?",
+      "choices": ["15 jours", "1 mois", "2 mois", "6 mois"],
+      "correctIndex": 2,
+      "explanation": "Ce délai n'est toutefois opposable que si la décision mentionne les voies et délais de recours."
+    },
+    {
+      "id": "ca_q16",
+      "type": "true_false",
+      "prompt": "Le référé liberté (article L. 521-2 du CJA), créé par la loi du 30 juin 2000, exige que le juge statue dans un délai de 48 heures.",
+      "correctAnswer": true,
+      "explanation": "Il protège une atteinte grave et manifestement illégale à une liberté fondamentale, sans exiger l'introduction concomitante d'un recours au fond (contrairement au référé suspension)."
+    },
+    {
+      "id": "ca_q17",
+      "type": "open",
+      "prompt": "Quelles sont les trois conditions cumulatives du référé suspension (article L. 521-1 du CJA) ?",
+      "answer": "L'urgence, l'existence d'un doute sérieux quant à la légalité de la décision attaquée, et l'introduction concomitante d'un recours au fond contre cette décision.",
+      "explanation": "Il permet de paralyser temporairement l'exécution d'une décision présumée légale, sans remettre en cause son existence (CE, Huglo, 1982)."
+    },
+    {
+      "id": "ca_q18",
+      "type": "mcq",
+      "prompt": "Quelles sont les qualités que doit présenter l'intérêt à agir d'un requérant devant le juge administratif ?",
+      "choices": ["Collectif, hypothétique, futur et légitime", "Personnel, certain, direct, actuel et légitime", "Financier, direct et proportionné", "Public, certain et rétroactif"],
+      "correctIndex": 1,
+      "explanation": "Le juge apprécie l'intérêt à agir à la date à laquelle il statue, au regard des conclusions et non des moyens."
+    },
+    {
+      "id": "ca_q19",
+      "type": "open",
+      "prompt": "Que reconnaissent les arrêts Croix-de-Seguey-Tivoli (CE, 1906) et Casanova (CE, 1901) en matière d'intérêt à agir ?",
+      "answer": "Croix-de-Seguey-Tivoli reconnaît aux usagers d'un service public la qualité pour contester son organisation ou son fonctionnement ; Casanova reconnaît aux contribuables locaux la qualité pour contester des mesures affectant le budget de leur collectivité.",
+      "explanation": "Ces deux arrêts illustrent une appréciation souple de l'intérêt à agir, résumée par la formule \"la qualité devant l'intérêt\"."
+    },
+    {
+      "id": "ca_q20",
+      "type": "true_false",
+      "prompt": "Selon l'arrêt Danthony (CE, 2011), tout vice de procédure entache automatiquement d'illégalité la décision administrative qui en est entachée.",
+      "correctAnswer": false,
+      "explanation": "Le vice de procédure n'entraîne l'illégalité que s'il a privé l'intéressé d'une garantie ou s'il a été susceptible d'influencer le sens de la décision prise."
+    },
+    {
+      "id": "ca_q21",
+      "type": "mcq",
+      "prompt": "Quelle fonction, créée en 1931 sous le nom de \"commissaire du gouvernement\", consiste à exposer publiquement à l'audience une appréciation impartiale du droit applicable, sans trancher le litige ?",
+      "choices": ["Le rapporteur public", "Le greffier en chef", "Le président de chambre", "L'avocat général"],
+      "correctIndex": 0,
+      "explanation": "Sa participation à l'instruction et, au Conseil d'État, au délibéré a été validée par la Cour européenne des droits de l'homme après des critiques sur l'impartialité (CEDH, Kress c/ France, 2001)."
+    },
+    {
+      "id": "ca_q22",
+      "type": "open",
+      "prompt": "Quelle est la formation collégiale de droit commun pour juger une affaire au fond devant les juridictions administratives ?",
+      "answer": "Une formation de 3 juges (nombre impair pour éviter tout partage des voix).",
+      "explanation": "Des formations élargies existent pour les affaires plus importantes : jusqu'à 17 juges pour l'Assemblée du contentieux du Conseil d'État."
+    },
+    {
+      "id": "ca_q23",
+      "type": "mcq",
+      "prompt": "Quelle juridiction est seule compétente pour connaître des pourvois en cassation contre les décisions administratives rendues en premier et dernier ressort ?",
+      "choices": ["La Cour de cassation", "Le Tribunal des conflits", "Le Conseil d'État", "La cour administrative d'appel"],
+      "correctIndex": 2,
+      "explanation": "Le Conseil d'État, juge de cassation, est juge du droit : il ne réexamine pas les faits, sauf en cas de dénaturation."
+    },
+    {
+      "id": "ca_q24",
+      "type": "true_false",
+      "prompt": "Les jugements d'annulation rendus dans le cadre d'un recours pour excès de pouvoir produisent des effets erga omnes.",
+      "correctAnswer": true,
+      "explanation": "À la différence du plein contentieux, où l'autorité de la chose jugée suppose une triple identité de parties, de cause et d'objet."
+    },
+    {
+      "id": "ca_q25",
+      "type": "open",
+      "prompt": "Quelle différence sépare la responsabilité pour faute simple et la responsabilité sans faute de l'administration ?",
+      "answer": "La faute simple suppose de démontrer une erreur ou une carence de l'administration (régime de droit commun) ; la responsabilité sans faute répare un préjudice même en l'absence de toute faute, dans deux hypothèses : le risque (choses ou situations dangereuses) et la rupture d'égalité devant les charges publiques (préjudice anormal et spécial causé par une décision pourtant légale, ex. CE, Couitéas, 1923).",
+      "explanation": "La faute lourde, plus difficile à établir, reste exigée dans certains domaines sensibles comme le contrôle des collectivités territoriales ou la justice."
+    },
+    {
+      "id": "ca_q26",
+      "type": "mcq",
+      "prompt": "Pour être indemnisable, un préjudice devant le juge administratif doit être :",
+      "choices": ["Direct, certain et légitime", "Collectif, futur et proportionné", "Public, indirect et probable", "Personnel, hypothétique et grave"],
+      "correctIndex": 0,
+      "explanation": "Le préjudice moral est indemnisable depuis l'arrêt CE, Letisserand (1961)."
+    },
+    {
+      "id": "ca_q27",
+      "type": "true_false",
+      "prompt": "Le désistement d'un requérant dans un recours pour excès de pouvoir doit être accepté par l'administration défenderesse pour produire effet.",
+      "correctAnswer": false,
+      "explanation": "En REP, le désistement n'a pas à être accepté par le défendeur ; c'est différent en plein contentieux si le défendeur a formé des conclusions reconventionnelles."
+    }
+  ]
+}

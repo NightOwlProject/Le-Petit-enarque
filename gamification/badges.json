@@ -1,6 +1,22 @@
 {
-  "version": 4,
+  "version": 5,
   "badges": [
+    {
+      "id": "badge_streak5_contentieux",
+      "title": "Procédurier·ère",
+      "description": "5 bonnes réponses d'affilée en contentieux administratif",
+      "icon": "📋",
+      "condition": { "type": "streak", "topic": "contentieux_admin", "count": 5 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "contentieux_admin", "window": 8, "threshold": 0.5 }
+    },
+    {
+      "id": "badge_streak5_dmue",
+      "title": "Européen·ne convaincu·e",
+      "description": "5 bonnes réponses d'affilée en droit matériel de l'UE",
+      "icon": "🇪🇺",
+      "condition": { "type": "streak", "topic": "dmue", "count": 5 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "dmue", "window": 8, "threshold": 0.5 }
+    },
     {
       "id": "badge_streak3_constitution",
       "title": "Étincelle",
@@ -111,6 +127,34 @@
       "condition": { "type": "accuracy_above", "topic": "ct", "window": 10, "threshold": 0.9 }
     },
     {
+      "id": "badge_expert_contentieux",
+      "title": "Maître du contentieux",
+      "description": "15 questions de contentieux administratif répondues",
+      "icon": "👨‍⚖️",
+      "condition": { "type": "volume", "topic": "contentieux_admin", "count": 15 }
+    },
+    {
+      "id": "badge_expert_dmue",
+      "title": "Communautaire",
+      "description": "15 questions de droit matériel de l'UE répondues",
+      "icon": "🇪🇺",
+      "condition": { "type": "volume", "topic": "dmue", "count": 15 }
+    },
+    {
+      "id": "badge_precision_contentieux",
+      "title": "Procédure impeccable",
+      "description": "90% de bonnes réponses sur les 10 dernières questions de contentieux administratif",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "contentieux_admin", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_precision_dmue",
+      "title": "Précision communautaire",
+      "description": "90% de bonnes réponses sur les 10 dernières questions de droit matériel de l'UE",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "dmue", "window": 10, "threshold": 0.9 }
+    },
+    {
       "id": "badge_polymathe",
       "title": "Polymathe",
       "description": "Au moins 15 questions répondues dans chacun des trois thèmes (constitution, CT, arrêts)",
@@ -134,6 +178,22 @@
         "conditions": [
           { "type": "accuracy_above", "topic": "constitution", "window": 10, "threshold": 0.9 },
           { "type": "accuracy_above", "topic": "ct", "window": 10, "threshold": 0.9 }
+        ]
+      }
+    },
+    {
+      "id": "badge_pentathlete",
+      "title": "Pentathlète",
+      "description": "Au moins 10 questions répondues dans chacun des cinq thèmes de quiz",
+      "icon": "🏋️",
+      "condition": {
+        "type": "all_of",
+        "conditions": [
+          { "type": "volume", "topic": "constitution", "count": 10 },
+          { "type": "volume", "topic": "ct", "count": 10 },
+          { "type": "volume", "topic": "arrets_quiz", "count": 10 },
+          { "type": "volume", "topic": "contentieux_admin", "count": 10 },
+          { "type": "volume", "topic": "dmue", "count": 10 }
         ]
       }
     },

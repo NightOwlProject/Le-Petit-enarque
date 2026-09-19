@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "topics": ["constitution", "ct", "arrets_quiz"],
-  "flashcard_decks": ["arrets", "constitution", "ct"],
-  "gamification_version": 4
+  "version": 5,
+  "topics": ["constitution", "ct", "arrets_quiz", "contentieux_admin", "dmue"],
+  "flashcard_decks": ["arrets", "constitution", "ct", "contentieux_admin", "dmue"],
+  "gamification_version": 5
 }

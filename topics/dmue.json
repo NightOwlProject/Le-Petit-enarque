@@ -1,0 +1,197 @@
+{
+  "id": "dmue",
+  "title": "Droit matériel de l'UE",
+  "description": "Marché intérieur, libre circulation, concurrence et politiques sectorielles",
+  "questions": [
+    {
+      "id": "dmue_q1",
+      "type": "mcq",
+      "prompt": "Quel article du TFUE établit l'union douanière de l'Union européenne, interdisant droits de douane et taxes d'effet équivalent entre États membres et instaurant un tarif douanier commun envers les États tiers ?",
+      "choices": ["Article 18 TFUE", "Article 28 TFUE", "Article 101 TFUE", "Article 114 TFUE"],
+      "correctIndex": 1,
+      "explanation": "Le tarif douanier commun représente environ 11-12% des ressources propres de l'Union."
+    },
+    {
+      "id": "dmue_q2",
+      "type": "open",
+      "prompt": "Comment la CJCE définit-elle une \"taxe d'effet équivalente\" (TEE) à un droit de douane depuis l'arrêt Commission c/ Italie de 1969 ?",
+      "answer": "Une charge pécuniaire, imposée unilatéralement par un État membre, qui frappe une marchandise du fait du franchissement d'une frontière — sans qu'il soit nécessaire de démontrer un effet discriminatoire (contrairement à la définition antérieure de 1962).",
+      "explanation": "Ne sont pas des TEE : les impositions intérieures (article 110 TFUE) et les redevances correspondant à un service réellement rendu, sous quatre conditions cumulatives."
+    },
+    {
+      "id": "dmue_q3",
+      "type": "true_false",
+      "prompt": "L'article 110 du TFUE interdit à un État membre de frapper les produits importés d'impositions intérieures supérieures à celles qui frappent des produits nationaux similaires, quelle que soit l'ampleur de la différence.",
+      "correctAnswer": true,
+      "explanation": "L'importance de la discrimination est indifférente : même minime, elle est interdite (contrairement à l'appréciation de l'effet protecteur de l'alinéa 2, qui exige une atteinte significative)."
+    },
+    {
+      "id": "dmue_q4",
+      "type": "mcq",
+      "prompt": "Quel arrêt de la CJCE (1974) définit la mesure d'effet équivalent à une restriction quantitative (MEE) comme \"toute réglementation commerciale des États susceptible d'entraver directement ou indirectement, actuellement ou potentiellement, le commerce intracommunautaire\" ?",
+      "choices": ["Cassis de Dijon", "Dassonville", "Keck et Mithouard", "Geddo"],
+      "correctIndex": 1,
+      "explanation": "Cette définition très large a ensuite été précisée par l'arrêt Cassis de Dijon (1979) pour les mesures indistinctement applicables, puis restreinte par Keck et Mithouard (1993) pour certaines modalités de vente."
+    },
+    {
+      "id": "dmue_q5",
+      "type": "open",
+      "prompt": "Que consacre l'arrêt Cassis de Dijon (CJCE, 1979) en matière de libre circulation des marchandises ?",
+      "answer": "Le principe de reconnaissance mutuelle : un produit légalement fabriqué et commercialisé dans un État membre doit en principe pouvoir circuler librement dans les autres, sauf restriction proportionnée justifiée par une exigence impérative (protection des consommateurs, santé publique, efficacité des contrôles fiscaux...).",
+      "explanation": "En l'espèce, l'exigence allemande d'un degré d'alcool minimum de 25% pour une liqueur de fruit fut jugée contraire à cette libre circulation."
+    },
+    {
+      "id": "dmue_q6",
+      "type": "true_false",
+      "prompt": "Selon l'arrêt Keck et Mithouard (CJCE, 1993), certaines modalités de vente non discriminatoires échappent à la qualification de mesure d'effet équivalent.",
+      "correctAnswer": true,
+      "explanation": "Ce repli jurisprudentiel a toutefois été nuancé ensuite, par exemple par l'arrêt Ker-Optika (2010) sur la vente de lentilles de contact en ligne."
+    },
+    {
+      "id": "dmue_q7",
+      "type": "mcq",
+      "prompt": "Combien de conditions cumulatives pose la jurisprudence Cassis de Dijon pour qu'une exigence impérative justifie une entrave à la libre circulation des marchandises ?",
+      "choices": ["Deux", "Trois", "Quatre", "Cinq"],
+      "correctIndex": 1,
+      "explanation": "Le domaine ne doit pas avoir fait l'objet d'une harmonisation exhaustive de l'UE, la mesure doit être indistinctement applicable, et elle doit être proportionnée à l'objectif poursuivi."
+    },
+    {
+      "id": "dmue_q8",
+      "type": "open",
+      "prompt": "Quels sont les cinq motifs de dérogation prévus par l'article 36 du TFUE aux interdictions de restrictions quantitatives et mesures d'effet équivalent ?",
+      "answer": "La moralité publique, l'ordre et la sécurité publics, la protection de la santé et de la vie des personnes/animaux/végétaux, la protection des trésors nationaux, et la protection de la propriété industrielle et commerciale.",
+      "explanation": "Ces dérogations ne doivent constituer ni une discrimination arbitraire ni une restriction déguisée aux échanges (CJCE, Conegate, 1986)."
+    },
+    {
+      "id": "dmue_q9",
+      "type": "mcq",
+      "prompt": "Comment la CJCE définit-elle un \"travailleur\" au sens de la libre circulation (arrêt Lawrie-Blum, 1986) ?",
+      "choices": ["Toute personne exerçant une activité indépendante", "Une personne accomplissant des prestations pour autrui, sous sa direction, contre rémunération", "Toute personne inscrite à Pôle emploi dans un État membre", "Un ressortissant de l'Union exerçant une activité économique quelconque"],
+      "correctIndex": 1,
+      "explanation": "Cette définition extensive couvre exclusivement les salariés ; les indépendants relèvent de la liberté d'établissement ou de la libre prestation de services."
+    },
+    {
+      "id": "dmue_q10",
+      "type": "true_false",
+      "prompt": "Selon l'article 21 du TFUE (issu du traité de Maastricht), tout citoyen de l'Union a le droit de circuler et de séjourner librement sur le territoire des États membres, indépendamment de l'exercice d'une activité économique.",
+      "correctAnswer": true,
+      "explanation": "Cette invocabilité directe a été confirmée par l'arrêt Baumbast (CJCE, 2002)."
+    },
+    {
+      "id": "dmue_q11",
+      "type": "open",
+      "prompt": "Quelle est la différence essentielle entre la liberté d'établissement (article 49 TFUE) et la libre prestation de services (article 56 TFUE) ?",
+      "answer": "La liberté d'établissement suppose une activité économique stable et durable dans un autre État membre, tandis que la libre prestation de services suppose une prestation temporaire ; selon l'arrêt Gebhard (CJCE, 1995), c'est la permanence du service (et non de l'infrastructure éventuellement utilisée) qui distingue les deux libertés.",
+      "explanation": "La libre prestation de services peut prendre trois formes : déplacement du prestataire, déplacement du destinataire, ou franchissement de la frontière par la prestation elle-même sans déplacement de personne."
+    },
+    {
+      "id": "dmue_q12",
+      "type": "mcq",
+      "prompt": "D'après l'arrêt Reyners (CJCE, 1974), l'exception d'\"exercice de l'autorité publique\" qui permet de réserver certains emplois aux nationaux doit être interprétée de façon :",
+      "choices": ["Extensive, couvrant toute une profession dès qu'un acte relève de la puissance publique", "Restrictive, limitée aux activités détachables constituant une participation directe et spécifique à l'exercice de l'autorité publique", "Automatique pour toutes les professions réglementées", "Supprimée depuis le traité de Lisbonne"],
+      "correctIndex": 1,
+      "explanation": "L'exception n'est admise que si elle est strictement nécessaire, ce qui exclut en principe des professions entières comme celle d'avocat."
+    },
+    {
+      "id": "dmue_q13",
+      "type": "true_false",
+      "prompt": "Une entente entre entreprises au sens de l'article 101 du TFUE nécessite un accord écrit et formalisé pour être caractérisée.",
+      "correctAnswer": false,
+      "explanation": "Une pratique concertée suffit : il n'est pas besoin d'accord formel, une volonté commune d'agir de façon coordonnée suffit (CJCE, Sandoz, 1990, pour les accords ; notion autonome de pratique concertée)."
+    },
+    {
+      "id": "dmue_q14",
+      "type": "mcq",
+      "prompt": "Selon l'arrêt Höfner (CJCE, 1991), qu'est-ce qu'une \"entreprise\" au sens du droit de la concurrence de l'Union ?",
+      "choices": ["Toute société commerciale immatriculée dans un État membre", "Toute unité exerçant une activité économique, indépendamment de son statut juridique et de son mode de financement", "Uniquement les sociétés à but lucratif", "Toute entité employant plus de 50 salariés"],
+      "correctIndex": 1,
+      "explanation": "Cette définition matérielle et extensive permet d'inclure des organismes publics dans le champ du droit de la concurrence."
+    },
+    {
+      "id": "dmue_q15",
+      "type": "open",
+      "prompt": "Que sanctionne l'article 102 du TFUE, et quel critère principal permet d'identifier une position dominante ?",
+      "answer": "L'article 102 sanctionne l'exploitation abusive d'une position dominante affectant le commerce entre États membres. La position dominante se caractérise par la possibilité d'agir sans tenir notablement compte de ses concurrents, clients ou fournisseurs (décision Continental Can, 1971) ; la part de marché est le critère essentiel, complété par d'autres indices (capacité financière, avance technologique...).",
+      "explanation": "Contrairement à une entente, un abus de position dominante n'exige pas d'accord entre plusieurs entreprises : une seule entreprise peut être sanctionnée."
+    },
+    {
+      "id": "dmue_q16",
+      "type": "true_false",
+      "prompt": "Le règlement (CE) n° 1/2003 a remplacé le système d'autorisation préalable des ententes par un système d'exemption légale reposant sur l'auto-évaluation des entreprises.",
+      "correctAnswer": true,
+      "explanation": "Ce règlement a modernisé le régime antérieur de 1962, qui exigeait une notification préalable et une autorisation exclusive de la Commission."
+    },
+    {
+      "id": "dmue_q17",
+      "type": "mcq",
+      "prompt": "Quelles sont les quatre conditions cumulatives posées par l'arrêt Altmark (CJCE, 2003) pour qu'une compensation de service public échappe à la qualification d'aide d'État ?",
+      "choices": [
+        "L'entreprise doit être cotée en bourse, publique, rentable et transparente",
+        "L'entreprise doit être effectivement chargée d'obligations de service public clairement définies, les paramètres de la compensation établis à l'avance de façon transparente, une compensation ne dépassant pas les coûts (plus un bénéfice raisonnable), et une détermination par appel d'offres ou référence à une entreprise moyenne bien gérée",
+        "L'entreprise doit être une PME, non subventionnée par ailleurs et récente",
+        "L'aide doit être inférieure à 500 000 euros et notifiée à la Commission"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ces quatre critères cumulatifs permettent de distinguer une simple compensation de service public d'une véritable aide d'État soumise à notification."
+    },
+    {
+      "id": "dmue_q18",
+      "type": "open",
+      "prompt": "Qu'est-ce qu'un SIEG (service d'intérêt économique général), et donne un exemple d'activité qui en est exclue.",
+      "answer": "Un SIEG est une activité économique soumise à des obligations spécifiques de service public en raison de l'intérêt général, tout en donnant lieu à une relation marchande (ex. transport, poste, télécoms). En sont exclues les fonctions régaliennes (ex. le contrôle du trafic aérien, arrêt Eurocontrol, 1994) ainsi que, selon la jurisprudence, certains régimes sociaux ou l'éducation.",
+      "explanation": "Les prestataires de SIEG restent en principe soumis aux règles de concurrence, sauf si cela fait échec à l'accomplissement de leur mission (article 106§2 TFUE)."
+    },
+    {
+      "id": "dmue_q19",
+      "type": "mcq",
+      "prompt": "La Politique agricole commune (PAC) a été lancée en :",
+      "choices": ["1957", "1962", "1975", "1992"],
+      "correctIndex": 1,
+      "explanation": "Ses objectifs originels figuraient déjà dans le traité de Rome (1957) : accroître la productivité, garantir un niveau de vie équitable aux agriculteurs, stabiliser les marchés, garantir les approvisionnements et assurer des prix raisonnables."
+    },
+    {
+      "id": "dmue_q20",
+      "type": "true_false",
+      "prompt": "La réforme de la PAC de 1992, fondée sur le rapport Mac Sharry, a marqué le passage d'un soutien par les prix à un soutien direct des revenus des agriculteurs.",
+      "correctAnswer": true,
+      "explanation": "Cette réforme a entraîné une baisse significative des prix agricoles garantis, compensée par des aides forfaitaires calculées sur le rendement ou le nombre de têtes de bétail."
+    },
+    {
+      "id": "dmue_q21",
+      "type": "mcq",
+      "prompt": "Quel fonds européen, créé en 1975, finance les infrastructures de développement régional dans le cadre de la politique de cohésion ?",
+      "choices": ["Le FEDER", "Le FSE", "Le FEAGA", "Le Fonds de cohésion"],
+      "correctIndex": 0,
+      "explanation": "Le Fonds européen de développement régional (FEDER) finance notamment les transports, l'énergie et les télécommunications."
+    },
+    {
+      "id": "dmue_q22",
+      "type": "open",
+      "prompt": "Qu'est-ce que l'Espace de liberté, de sécurité et de justice (ELSJ), et quand a-t-il été créé ?",
+      "answer": "L'ELSJ regroupe les politiques d'asile, d'immigration, de visas et de coopération policière et judiciaire ; il a été créé par le traité d'Amsterdam (signé en 1997, entré en vigueur en 1999), qui a en partie \"communautarisé\" ces matières auparavant classées dans le troisième pilier intergouvernemental de Maastricht (justice et affaires intérieures - JAI).",
+      "explanation": "Le traité de Lisbonne a ensuite mis fin à l'architecture en piliers, unifiant l'ELSJ dans le titre V du TFUE."
+    },
+    {
+      "id": "dmue_q23",
+      "type": "true_false",
+      "prompt": "Le mandat d'arrêt européen (MAE), créé par une décision-cadre de 2002, repose sur le principe de reconnaissance mutuelle des décisions de justice entre États membres.",
+      "correctAnswer": true,
+      "explanation": "Il simplifie et accélère les procédures d'extradition entre États membres de l'Union."
+    },
+    {
+      "id": "dmue_q24",
+      "type": "mcq",
+      "prompt": "Le Parquet européen est compétent pour :",
+      "choices": ["Toutes les infractions pénales commises dans l'Union", "Les seules atteintes aux intérêts financiers de l'Union européenne", "Le contrôle de la légalité des actes du Conseil", "Les litiges de droit du travail transfrontaliers"],
+      "correctIndex": 1,
+      "explanation": "Son mandat, volontairement limité, vise notamment la fraude aux subventions ou à la TVA transfrontalière."
+    },
+    {
+      "id": "dmue_q25",
+      "type": "open",
+      "prompt": "Que prévoit le règlement Dublin dans le cadre du régime d'asile européen commun (RAEC) ?",
+      "answer": "Il désigne un seul État membre responsable de l'examen d'une demande d'asile — en principe le premier État d'entrée du demandeur sur le territoire de l'Union — et permet le renvoi automatique du demandeur vers cet État en cas de mouvement secondaire vers un autre État membre.",
+      "explanation": "Ce mécanisme de guichet unique vise à éviter l'\"asylum shopping\", c'est-à-dire le dépôt de multiples demandes d'asile dans différents États membres."
+    }
+  ]
+}
