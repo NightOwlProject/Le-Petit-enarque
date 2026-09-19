@@ -202,6 +202,29 @@
       "prompt": "Quels sont les trois pouvoirs que le Parlement exerce d'après l'article 24 ?",
       "answer": "Voter la loi, contrôler l'action du Gouvernement, et évaluer les politiques publiques.",
       "explanation": "Cette dernière mission d'évaluation a été ajoutée par la révision constitutionnelle de 2008."
+    },
+    {
+      "id": "const_fb1",
+      "type": "fill_blank",
+      "prompt": "En quelle année la Constitution de la Ve République a-t-elle été adoptée ?",
+      "answer": "1958",
+      "explanation": "Adoptée par référendum le 28 septembre 1958, promulguée le 4 octobre 1958."
+    },
+    {
+      "id": "const_fb2",
+      "type": "fill_blank",
+      "prompt": "Quel est le nom de l'organe chargé de contrôler la conformité des lois à la Constitution ?",
+      "answer": "Conseil constitutionnel",
+      "acceptedAnswers": ["le Conseil constitutionnel", "conseil constitutionnel"],
+      "explanation": "Créé par la Constitution de 1958, il siège au Palais-Royal."
+    },
+    {
+      "id": "const_fb3",
+      "type": "fill_blank",
+      "prompt": "Combien d'années dure le mandat présidentiel depuis la révision de 2000 ?",
+      "answer": "5",
+      "acceptedAnswers": ["5 ans", "cinq", "cinq ans", "quinquennat"],
+      "explanation": "Le quinquennat a remplacé le septennat suite au référendum du 24 septembre 2000."
     }
   ]
 }

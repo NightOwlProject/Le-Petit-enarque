@@ -127,7 +127,7 @@
       "id": "badge_master_ct",
       "title": "Angela Merkel",
       "description": "30 questions sur les collectivités territoriales répondues",
-      "icon": "🧊",
+      "icon": "🇩🇪",
       "condition": { "type": "volume", "topic": "ct", "count": 30 }
     },
     {
@@ -272,7 +272,7 @@
       "id": "badge_master_dfp",
       "title": "Otto von Bismarck",
       "description": "30 questions de droit de la fonction publique répondues",
-      "icon": "🏢",
+      "icon": "⚔️",
       "condition": { "type": "volume", "topic": "dfp", "count": 30 }
     },
     {

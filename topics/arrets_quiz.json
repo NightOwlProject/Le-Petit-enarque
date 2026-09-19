@@ -488,6 +488,21 @@
       "type": "open",
       "prompt": "Que retenir de l'arrêt Société civile Sainte-Marie de l'Assomption (CE, 1972) ?",
       "answer": "Atteinte à un autre intérêt public peut aussi figurer à titre d’inconvénient dans la théorie du bilan (pas seulement intérêts privés)"
+    },
+    {
+      "id": "arret_fb1",
+      "type": "fill_blank",
+      "prompt": "En quelle année le Conseil d'État a-t-il rendu l'arrêt Blanco (fondateur du droit administratif) ?",
+      "answer": "1873",
+      "explanation": "Arrêt du Tribunal des conflits, 8 février 1873 : pose le principe de l'autonomie du droit administratif."
+    },
+    {
+      "id": "arret_fb2",
+      "type": "fill_blank",
+      "prompt": "Quel est le nom de l'arrêt du Conseil d'État du 6 février 1903 qui étend la compétence du juge administratif aux contrats des collectivités locales ?",
+      "answer": "Terrier",
+      "acceptedAnswers": ["arret terrier", "l'arret terrier"],
+      "explanation": "À ne pas confondre avec l'arrêt Société commerciale de l'Ouest africain, dit Bac d'Eloka (1921), qui distingue SPA et SPIC."
     }
   ]
 }
