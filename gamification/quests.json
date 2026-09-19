@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "quests": [
+    {
+      "id": "quest_daily_3",
+      "title": "Échauffement",
+      "description": "Réponds à 3 questions aujourd'hui",
+      "target": { "type": "answers_count", "count": 3, "period": "day" }
+    }
+  ]
+}
