@@ -1,0 +1,493 @@
+﻿{
+  "id": "arrets_quiz",
+  "title": "Arrêts (quiz)",
+  "description": "Teste tes connaissances sur les grands arrêts de droit administratif",
+  "questions": [
+    {
+      "id": "quiz_arret_blanco",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Blanco (TC, 1873) ?",
+      "answer": "Responsabilité de l'E n'est ni générale ni absolue, elle répondà des règles spéciales, propres aux besoins du SP => concilier intérêt de l'E et des particuliers ne peut se faire par le JJ mais le JA"
+    },
+    {
+      "id": "quiz_arret_princeinapoleon",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Prince Napoléon (CE, 1875) ?",
+      "answer": "restriction dratique du champ des actes de gouvernement injustiiciables : abandon de la théorie du \"mobile politique\" qui prévalait jusqu'alors pour les actes de gouvernement => JA compétent pour se prononcer sur la légalité d'un acte, même si cet acte n'a été pris qu'au regard de considérations purement politiques"
+    },
+    {
+      "id": "quiz_arret_cadot",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Cadot (CE, 1889) ?",
+      "answer": "Abandon de la théorie du \"ministre-juge\", CE devient un véritable JA de droit commun"
+    },
+    {
+      "id": "quiz_arret_feutry",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Feutry (TC, 1908) ?",
+      "answer": "Extension jurisprudence Blanco aux CT (à l’origine que l’Etat) + élargissement compétence du JA à l’ensemble des fautes de service"
+    },
+    {
+      "id": "quiz_arret_dameideikirkwood",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Dame de Kirkwood (CE, 1952) ?",
+      "answer": "CE se déclare compétent pour apprécier la conformité des actes admin aux normes du droit international => naissance de la compétence de contrôle de conventionnalité d'un AA par le CE MAIS reste incompétent lorsque la loi fait écran"
+    },
+    {
+      "id": "quiz_arret_syndicatigeneralidesifabricantsideisemou",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Syndicat général des fabricants de semoules de France (CE, 1968) ?",
+      "answer": "CE refuse de contrôler la conventionnalité des lois fr postérieures, en dépit de l'article 55 de la Constitution et de la jp européenne consacrant les principes de primauté et d'effet direct du droit européen"
+    },
+    {
+      "id": "quiz_arret_soeidesicafesijacquesivabre",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé des cafés Jacques Vabre (Ccass, 1975) ?",
+      "answer": "JJ est compétent pour opérer un contrôle de conventionnalité de la loi autrement dit un contrôle de la conformité de la loi interne aux stipulations d'un traité"
+    },
+    {
+      "id": "quiz_arret_nicolo",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Nicolo (CE, 1989) ?",
+      "answer": "JA est compétent pour opérer un contrôle de conventionnalité de la loi autrement dit un contrôle de la conformité de la loi interne aux stipulations d'un traité"
+    },
+    {
+      "id": "quiz_arret_boisdet",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Boisdet (CE, 1990) ?",
+      "answer": "Primauté des règlements EU sur les normes internes + interdit à l'admin nat d'imposer des obligations prof que le DUE ne prévoit pas"
+    },
+    {
+      "id": "quiz_arret_rohtmansiinternationalifranceietiphilipi",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Rohtmans International France et Philip Morris France (CE, 1992) ?",
+      "answer": "JA peut écarter une loi nat postérieure lorsqu'elle est incompatible avec une directive communautaire, consacrant ainsi la primauté des directives sur la loi dans le contrôle de légalité des AA"
+    },
+    {
+      "id": "quiz_arret_cohnibendit",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Cohn Bendit (CE, 1978) ?",
+      "answer": "CE refuse d’appliquer la jurisprudence européenne selon laquelle une directive non transposée dans les délais se voit conférer un effet direct, dès lors qu’elle est inconditionnelle / complète / claire."
+    },
+    {
+      "id": "quiz_arret_procopio",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Procopio (CE, 1987) ?",
+      "answer": "CE considère que la publication de la convention inter au JO détermine son entrée en vigueur (acte-conditions cf. art. 55 C), refuse d’appliquer des normes inter non publiées mais estime qu’une fois publié traité peut opérer de façon rétroactive lorsque l’une de ses dispositions prévoit une date d’entrée en vigueur antérieure à la date de publication (application des conventions dans toutes leurs dispositions ainsi) => principe de non-discrimination principe de fond / forme du traité."
+    },
+    {
+      "id": "quiz_arret_aquarone",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Aquarone (CE, 1997) ?",
+      "answer": "A l’origine coutume tendance à être assimilée à acte de gouvernement (non détachable RI), ici consacre valeur législative de la coutume internationale et son invocabilité à l’appui d’un recours contre un acte administratif déjà implicitement admise, fondée sur le Préambule de la C de 1946 qui reconnaît que la République se conforme aux principes du droit public international). NB : coutume ajd encore présente dans domaine maritime / immunités de juridiction"
+    },
+    {
+      "id": "quiz_arret_kone",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Koné (CE, 1996) ?",
+      "answer": "Consécration de l’interdiction d’extrader dans un but comme politique comme PFRLR, d’une valeur supra-législative, rappelant la capacité d’interprétation du CE en matière constitutionnelle. L’arrêt introduit également débat sur la valeur juridique des conventions internationales, auxquelles l’art. 85 de la C reconnaît une valeur supérieure aux lois sous réserve d’une application réciproque / ratification régulière mais semble-t-il dans l’arrêt, inférieure à la Constitution cf. tempère supériorité dont jouissait en pratique les traités du fait du refus du JA de contrôler compatibilité loi de ratification traité avec art. 54 C … (vs droit européen)"
+    },
+    {
+      "id": "quiz_arret_dameiperreux",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Dame Perreux (CE, 2009) ?",
+      "answer": "Application de la jurisprudence Van Duyn => directives non transposées directement invocable à l’appui d’un recours contre un acte individuel."
+    },
+    {
+      "id": "quiz_arret_dameiveuveitrompier_gravier",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Dame veuve Trompier-Gravier (CE, 1944) ?",
+      "answer": "Les procédures administratives non contentieuses doivent respecter les PGD et notamment celui du droit de la défense: trois aspects du droit de la défense (individu doit ê informé si une proc engagée contre lui + des griefs + délais raisonnables, droit d'assistance à un avocat, si droit communication dossier, communication intégrale)"
+    },
+    {
+      "id": "quiz_arret_syndicatigeneralidesiingenieursiconseils",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Syndicat général des ingénieurs conseils (CE, 1959) ?",
+      "answer": "Exercice du pouvoir règlementaire du gouv est soumis au PGD: (i) certaines règles non-écrites n'ont qu'une valeur législative ou règlementaire, (ii) d'autres ont une valeur supérieure = PGD, a) les règles de compétence (pouvoirs art34C) et b) règles de fond (PGD déduits par le juge \"qui s'imposent à l'autorité règlementaire même lorsqu'elle n'est pas limitée par la loi\")"
+    },
+    {
+      "id": "quiz_arret_sarran_ilevacherietiautres",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Sarran, Levacher et autres (CE, 1998) ?",
+      "answer": "CE ne contrôle pas la conventionnalité d'une disposition consti et les traités internationaux ne priment pas sur la constit"
+    },
+    {
+      "id": "quiz_arret_fraisse",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Fraisse (Ccass, 2000) ?",
+      "answer": "En cas de contrarité entre la consti et une norme internationale ou européenne, la consti prime pour le JJ"
+    },
+    {
+      "id": "quiz_arret_soeiarceloriatlantiqueietilorraineietiau",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé Arcelor Atlantique et Lorraine et autres (CE, 2007) ?",
+      "answer": "Méthode du JA pour contrôler si l'acte de transposition d'une directive est conforme à la consti en vérifiant si le ppe consti invoqué a un équivalent en DUE (s'il y en a un, que la norme règlementaire n'y contrevient pas, le moyen est écarté / si la norme règlementaire y contrevient = saisie CJUE pour interprétation OU si pas de ppe alors JA opère un contrôle de constité de la norme règlementaire)"
+    },
+    {
+      "id": "quiz_arret_terrier",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Terrier (TC, 1903) ?",
+      "answer": "Contentieux des CT incorporé définitivement au contentieux admin + \"tout ce qui concerne l'orga et le fonctionnement des SP constitue une opé admin\""
+    },
+    {
+      "id": "quiz_arret_therond",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Thérond (CE, 1910) ?",
+      "answer": "Le but poursuivi par le contrat - assurer un SP - donne compétence au JA"
+    },
+    {
+      "id": "quiz_arret_soeicommercialeideil_ouestiafricain",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé commerciale de l'Ouest africain (TC, 1921) ?",
+      "answer": "Possibilité qu'un SP, géré dans les même conditions qu'une entreprise pv, relève du droit pv et donc compet du JJ => compet du JJ pour SPIC à la différence du JA pour SPA"
+    },
+    {
+      "id": "quiz_arret_chambreisyndicaleiduicommerceienidetaili",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Chambre syndicale du commerce en détail de Nevers (CE, 1930) ?",
+      "answer": "Subordination de l'intervention éco de la puiss pub à deux conditions : légitimité du besoin à satisfaire (intérêt pub) et carence de l'initiative pv"
+    },
+    {
+      "id": "quiz_arret_vezia",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Vézia (CE, 1935) ?",
+      "answer": "Reconnaît pour la première fois que l’intérêt public peut exister au sein d’une entité privée gérant SP (confié par la loi ou de fait) => critère matériel remplace le critère organique"
+    },
+    {
+      "id": "quiz_arret_caisseiprimaireid_aideietiprotection",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Caisse primaire d'Aide et protection (CE, 1938) ?",
+      "answer": "Possibilité reconnue aux pers morales de dr pv de gérer un SP et ce même en l'abs d'un contrat"
+    },
+    {
+      "id": "quiz_arret_creationidesispisociauxi_ifonctionnement",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Création des SP sociaux = fonctionnement // services privés => refus d’appropriation juridictions (TC, 1955) ?",
+      "answer": "Ces SP sont réintégré dans la catégorie des SPA par TC, Gambini, 1983"
+    },
+    {
+      "id": "quiz_arret_unionidesisyndicatsidesiindustriesiaeron",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Union des syndicats des industries aéronautiques USIA (CE, 1956) ?",
+      "answer": "3 critères cumulatifs permettent de distinguer SPIC d'un SPA : objet du service, nature de ses ressources, ses modalités de fonctionnement"
+    },
+    {
+      "id": "quiz_arret_narcy",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Narcy (CE, 1963) ?",
+      "answer": "Critères cumulatifs pour définir un SP exercé par une pers pv sont : poursuite d'une mission d'IG, existence d'un contrôle de l'admin et l'attribution de PPP"
+    },
+    {
+      "id": "quiz_arret_denoyezietichorques",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Denoyez et Chorques (CE, 1974) ?",
+      "answer": "Egalité devant le SP = possibilité d'exceptions si la loi l’autorise / IG / différences objectives de situation justifiant traitement différent"
+    },
+    {
+      "id": "quiz_arret_bureauiveritas",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Bureau Veritas (CE, 1983) ?",
+      "answer": "JA compétent pour connaître des litiges relatifs aux dommages causés par organisme privé dans l’exo des PPP qui lui ont été conférées pour l’exécution de la mission de SP dont est investi"
+    },
+    {
+      "id": "quiz_arret_associationiduipersonnelirelevantidesiet",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Association du personnel relevant des établissements pour inadaptés - APREI (CE, 2007) ?",
+      "answer": "Une pers pv peut ê gestionnaire d'une mission de SP m si elle ne détient pas de PPP"
+    },
+    {
+      "id": "quiz_arret_communeideinerisilesibains",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Commune de Néris les Bains (CE, 1902) ?",
+      "answer": "Une autorité de police locale ne peut qu'aggraver les mesures de police prises par une autorité supérieure (concours de police)"
+    },
+    {
+      "id": "quiz_arret_abbeiolivier",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Abbé Olivier (CE, 1909) ?",
+      "answer": "Les restrictions aux lib pub, comme la lib de culte, par les pouv de police doivent ê strictm nécess à l'OP + consacre la notion d'un intérêt public local"
+    },
+    {
+      "id": "quiz_arret_heyries",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Heyriès (CE, 1918) ?",
+      "answer": "En tps de guerre, les circonstances exceptionnelles permettent à l'admin de déroger aux règles légales pour assurer la continuité du SP, rendant légal un acte qui serait normalement illégal"
+    },
+    {
+      "id": "quiz_arret_damesidolietilaurent",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Dames Dol et Laurent (CE, 1919) ?",
+      "answer": "Circonstances exceptionnelles liées aux faits de guerre peuvent rendre légale une mesure admin restreignant une lib ind, qui en période normale, aurait été illégale"
+    },
+    {
+      "id": "quiz_arret_labonne",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Labonne (CE, 1919) ?",
+      "answer": "Le chef du gouv a un pouv propre de PAG, en dehors de toute habilitation législative"
+    },
+    {
+      "id": "quiz_arret_benjamin",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Benjamin (CE, 1933) ?",
+      "answer": "JA contrôle pleinement les motifs qui ont jusitifié la mesure de police - risques de TOP - ainsi que la proportionnalité de la mesure retenue au regard de ces risques"
+    },
+    {
+      "id": "quiz_arret_daudignac",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Daudignac (CE, 1951) ?",
+      "answer": "Ppe de lib de commerce et de l'industrie impose que toute restriction à l'exo d'une profession, nécessite une base légis explicite et ne saurait résulter d'une simple dc admin de police"
+    },
+    {
+      "id": "quiz_arret_soeilesifilmsilutetia",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé Les Films Lutétia (OP, 1959) ?",
+      "answer": "L'OP reçoit une new composante \"immatérielle\" : la moralité pub + juge apprécie les circonstances locales particulières afin d'opérer son contrôle + reco de la possibilité d'un \"concours des polices\" btw PAG et PAS (théorie de la PA : une PAS étatique n'exclut pas nécessairement l'exo simultané de la PAG locale)"
+    },
+    {
+      "id": "quiz_arret_canal_irobin_igodot",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Canal, Robin, Godot (CE, 1962) ?",
+      "answer": "Ordonnances résultent d'un régime particulier de contrôle, ordonnance attaquée, bien qu'intervenant dans le domaine législatif, tant qu'elle n'est pas ratifiée est un AA, donc suscpetible d'un recours dvt le JA + théorie des circonstances exceptionnelles où nécessité que les atteintes à la légalités soient strictement nécessaires pour atteindre le but poursuivi"
+    },
+    {
+      "id": "quiz_arret_guez",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Guez (CE, 1984) ?",
+      "answer": "Interdiction des mesures permanentes et générales"
+    },
+    {
+      "id": "quiz_arret_communeideimorsang_sur_orge",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Commune de Morsang-sur-Orge (CE, 1995) ?",
+      "answer": "Dignité de la personne humaine comme composante immatérielle de l'OP"
+    },
+    {
+      "id": "quiz_arret_dameicachet",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Dame Cachet (CE, 1922) ?",
+      "answer": "l'admin ne peut retirer un acte ind créateur de droit illégal que tant que cet acte peut encore ê contesté devant le juge ie pendant le délai de recours du contentieux (2mois). Passé ce délai l'acte devient définitif m s'il est entaché d'illégalité"
+    },
+    {
+      "id": "quiz_arret_jamart",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Jamart (CE, 1936) ?",
+      "answer": "Tout ministre dispose, même saans habilitation légis, d'un pouv réglementaire en tant que chef de service pour assurer le bon fonctionnement de l'admin, mais ne peut prendre des interdictions nominatives injustifées excédent ce pouvoir"
+    },
+    {
+      "id": "quiz_arret_soeiduijournali_l_aurore",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé du journal \"l'Aurore\" (CE, 1948) ?",
+      "answer": "Le ppe de non-rétroactivité est un PGD, s'imposant ainsi à tous les AA qui ne disposent que pour l'avenir + réaffirmation du ppe d'égalité (CE 1951 Soé des concerts du Conservatoire)"
+    },
+    {
+      "id": "quiz_arret_rosanigirard",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Rosan Girard (CE, 1957) ?",
+      "answer": "Les AA si affectés d'une illégalité particulièrement grave et flagrante, doivent ê considérés comme inexistants => cela permet de la contester et de les retirer à tout moment, y compris qd le délai de recours est expiré"
+    },
+    {
+      "id": "quiz_arret_creditifoncier",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Crédit Foncier (CE, 1970) ?",
+      "answer": "Les \"lignes directrices\" et leur application peuvent ê contestées à l'occas d'un recours formé contre une dc ind prise en application de celle-ci"
+    },
+    {
+      "id": "quiz_arret_compagnieialitalia",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Compagnie Alitalia (CE, 1989) ?",
+      "answer": "Reconnaît l’obligation par principe de faire droit à une demande d’abrogation d’un règlement illégal dès sa signature / qui l’est devenu du fait changement circo de faits ou de droit sans conditions de délai, indépendamment de tout texte (principe autonome / préexistant au décret)."
+    },
+    {
+      "id": "quiz_arret_hardouinietimarie",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Hardouin et Marie (CE, 1995) ?",
+      "answer": "JA est compétent pour les actes du cadre pénitencier et militaire dès lors qu'ils impactent les dr et lib fonda du requérant=> réduction du champ des mesures intérieures"
+    },
+    {
+      "id": "quiz_arret_ternon",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Ternon (CE, 2001) ?",
+      "answer": "L'admin ne peut retirer une dc ind créatrice de dr illégale que ds un délai de 4 mois suivant son édiction, sauf dm du bénéficiaire ou dispo légis ou règlementaire contraire"
+    },
+    {
+      "id": "quiz_arret_duvigneres",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Duvignères (CE, 2002) ?",
+      "answer": "Seules les dispositions imépratives à caractère général d'une circulaire font grief et son susceptibles de REP"
+    },
+    {
+      "id": "quiz_arret_soeifaivestaiinternational",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé Faivesta International (CE, 2016) ?",
+      "answer": "Recevabilité admin pour excès de pouvoirs contre les actes de dr souples dès lors qu'ils produisent des effets notables (économiques ou influencent de manière significative les comportements)"
+    },
+    {
+      "id": "quiz_arret_gisti",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt GISTI (CE, 2020) ?",
+      "answer": "tous les AA de dr souple à portée général susceptibles d'avoir des effets notables sur les dr individuels = suscpetible de recours devant JA"
+    },
+    {
+      "id": "quiz_arret_soeiimmobiliereisaint_just",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé Immobilière Saint-Just (TC, 1902) ?",
+      "answer": "Consécration du cadre de l'exécution forcée des dc admin, précise les conditions dans lesquelles l'admin peut y recourri légalement (aucune sanctioné légale, ait sa source de droit dans un texte de loi précis, n'aille pas au-delà de ce qui est strictement nécessaire) et subordonne la compet du JA à la légalité de cette exécution"
+    },
+    {
+      "id": "quiz_arret_compagnieiduigazideideville_les_rouen",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Compagnie du gaz de Déville-lès-Rouen (CE, 1902) ?",
+      "answer": "Consécration du ppe de mutabilité des contrats admin et du pouv de modification unilat (indemnisée) poru adapter le SP aux besoins de l'IG"
+    },
+    {
+      "id": "quiz_arret_compagnieigeneraleifrancaiseidesitramway",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Compagnie générale française des tramways (CE, 1910) ?",
+      "answer": "Pouvoir de moduf unilat des contrats reconnu pour assurer la bonne marche d'un SP + ppe d'équation financière"
+    },
+    {
+      "id": "quiz_arret_soeidesigranitsiporphyroidesidesivosges",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé des granits porphyroïdes des Vosges (CE, 1912) ?",
+      "answer": "Contrats conclus par l'admin sont des contrats de dr pv lorsqu'ils ne comporent aucune clause exorbitante du droit commun, m s'ils participent à l'exécution d'un SP => critère essentiel de PPP afin de caractériser un contrat admin"
+    },
+    {
+      "id": "quiz_arret_cieigeneraleid_eclairageideibdx",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Cie générale d'éclairage de Bdx (CE, 1916) ?",
+      "answer": "Dans le cadre d'un contrat de délégation de SP, si le cocontractant se trouve confronté à un event imprévisible et extériu qui boulverse l'économie du contrat => théorie de l'imprévision permet la continuité de ce service par une indemnité d'imprévision"
+    },
+    {
+      "id": "quiz_arret_epouxibertinietiministreideil_agricultur",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Epoux Bertin et Ministre de l'agriculture c/ Consorts Grimouard et autres (CE, 1956) ?",
+      "answer": "Un contrat ou des travaux relèvent du DA dès lors qu'ils ont pour objet l'exécution même d'un SP, indépendamment de l'existence de clauses exorbitantes ou du caract pub des biens concernés"
+    },
+    {
+      "id": "quiz_arret_distiellerieideimagnac_laval",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Distiellerie de Magnac-Laval (CE, 1958) ?",
+      "answer": "Reconnaissance de la résiliation unilat d'un contrat admin pour motif d'IG"
+    },
+    {
+      "id": "quiz_arret_soeiinterprofessionnelleiduilaitietisesi",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Soé interprofessionnelle du lait et ses dérivés \"Interlait\" (TC, 1969) ?",
+      "answer": "Le fait qu'un organisme pv exerce une mission de SP ne suffit pas à lui conférer la qualté d'autorité admin, seule la nature de l'acte (orga du SP ou acti commerciale) détermine la juridiciton compétente"
+    },
+    {
+      "id": "quiz_arret_unionidesiassurancesideiparis",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Union des assurances de Paris (TC, 1983) ?",
+      "answer": "Un contrat conclu entre deux personnes publiques est présumé ê un contrat admin sauf si son objet ne fait que naître des rapports de dr pv"
+    },
+    {
+      "id": "quiz_arret_berkani",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Berkani (TC, 1996) ?",
+      "answer": "Tout personnel nonstatutaire emplyé par un SPA est un agent de dr pub => litige relève du JA quelle que soit la nature de son emploi"
+    },
+    {
+      "id": "quiz_arret_pelletier",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Pelletier (TC, 1873) ?",
+      "answer": "Distinction btw la faute personnelle = JJ et faute de service = JA"
+    },
+    {
+      "id": "quiz_arret_anguet",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Anguet (CE, 1911) ?",
+      "answer": "Lorsque le dommage résulte à la fois d'une faute de service et d'une faute personnelle commise par un agent à l'occasion du sevrice, la respon de l'admin peut être engagée"
+    },
+    {
+      "id": "quiz_arret_lemmonier",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Lemmonier (CE, 1918) ?",
+      "answer": "Admet cumul de respon pour une seule faute qui relève à la fois de la faute personnellet de la faute de service"
+    },
+    {
+      "id": "quiz_arret_tomasoigrecco",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Tomaso Grecco (CE, 1905) ?",
+      "answer": "Fin au ppe d'irresponsabilité de l'E pour les actes de police en acceptant de contrôler le fonctionnement des services de police et en admettant potentiellement l'engagement de la respon admin"
+    },
+    {
+      "id": "quiz_arret_cames",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Cames (CE, 1895) ?",
+      "answer": "CE admet la responsabilité pour risque de l'admin"
+    },
+    {
+      "id": "quiz_arret_regnault_desroziers",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Regnault-Desroziers (CE, 1919) ?",
+      "answer": "Extension de la responsabilité sans faute de l'E en consacrant l'indemnisation des dommages causés par un risque anormal de voisinage (choses dangereuses)"
+    },
+    {
+      "id": "quiz_arret_couiteas",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Couitéas (CE, 1923) ?",
+      "answer": "Reconnsaissance de la responsabilité sans faute de l'admin dans le cadre d'une rupture d'égalité devant les charges publiques"
+    },
+    {
+      "id": "quiz_arret_communeideisaint_priestilaiplaine",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Commune de Saint-Priest la Plaine (CE, 1946) ?",
+      "answer": "Ouverture possibilité d'indemnisation sans faute auparavant refusée aux collaborateurs occasionnels du SP sollicités mais non requis par l’autorité publique."
+    },
+    {
+      "id": "quiz_arret_kpmg",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt KPMG (CE, 2006) ?",
+      "answer": "Consécration principe de sécurité juridique en droit interne"
+    },
+    {
+      "id": "quiz_arret_barel",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Barel (CE, 1954) ?",
+      "answer": "Pouvoir inquisitoire d’investigation + consécration égalité devant le SP comme PGD"
+    },
+    {
+      "id": "quiz_arret_casanova",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Casanova (CE, 1901) ?",
+      "answer": "Contribuables locaux se voit reconnaître intérêt à agir pour contester des mesures affectant patrimoine / budget collectivité (abandon critère du droit lésé)"
+    },
+    {
+      "id": "quiz_arret_croixideisegueyitivoli",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Croix de Séguey Tivoli (CE, 1906) ?",
+      "answer": "Reconnaissance de l’intérêt à agir des usagers pour contester orga / fonctionnement du SP (SPA et SPIC) et notamment respect des principes du SP (égalité, neutralité, continuité), ouvre la voie à la possibilité d’attaquer les clauses règlementaires contrats de SP / suppression d’un SP"
+    },
+    {
+      "id": "quiz_arret_dameilamotte",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Dame Lamotte (CE, 1950) ?",
+      "answer": "Aucune décision administrative ne peut prévoir l'impossibilité d'effectuer un REP devant JA, en principe loi pourrait le faire, mais à rebours jurisprudence droit recours effectif (art.13 CEDH, CJUE, 1986, Johnston, PVC 1994 et 1996)"
+    },
+    {
+      "id": "quiz_arret_gomel",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Gomel (CE, 1914) ?",
+      "answer": "JA étend son contrôle à la qualification juridique des faits cf. désormais ne contrôle plus seulement l’application à des faits déjà qualifiés d’une décision administrative, mais aussi en premier lieu leurs caractéristiques"
+    },
+    {
+      "id": "quiz_arret_czabaj",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Czabaj (CE, 2016) ?",
+      "answer": "CJA oblige admin à indiquer voies et délais de recours et jusqu’ici leur absence permettait contestation indéfiniment mais juge que la possibilité de contester indéfiniment une décision admin aux effets consolidés par le temps, même mal notifiée, s’oppose au principe de sécurité juridique, peut l’être dans un délai raisonnable qui en règle générale n’excède pas 1 an à compter de la notification / date connaissance."
+    },
+    {
+      "id": "quiz_arret_villeinouvelleiest",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Ville Nouvelle Est (CE, 1971) ?",
+      "answer": "théorie du bilan = extension du contrôle de l’utilité publique par le juge, devient concret => n’apprécie pas seulement fins IG du projet, mais avantage (IG) / inconvénients (coût financier, droits de propriété, dommages sociaux) du projet. Vérifie donc : - finalité d'intérêt public - nécessité de l'expropriation - bilan positif"
+    },
+    {
+      "id": "quiz_arret_societeicivileisainte_marieideil_assompt",
+      "type": "open",
+      "prompt": "Que retenir de l'arrêt Société civile Sainte-Marie de l'Assomption (CE, 1972) ?",
+      "answer": "Atteinte à un autre intérêt public peut aussi figurer à titre d’inconvénient dans la théorie du bilan (pas seulement intérêts privés)"
+    }
+  ]
+}

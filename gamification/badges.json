@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "badges": [
     {
       "id": "badge_streak3_constitution",
@@ -26,6 +26,14 @@
       "revokeCondition": { "type": "accuracy_below", "topic": "ct", "window": 8, "threshold": 0.5 }
     },
     {
+      "id": "badge_streak10_arrets",
+      "title": "Jurisconsulte",
+      "description": "10 bonnes réponses d'affilée sur les arrêts",
+      "icon": "🧑‍⚖️",
+      "condition": { "type": "streak", "topic": "arrets_quiz", "count": 10 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "arrets_quiz", "window": 15, "threshold": 0.5 }
+    },
+    {
       "id": "badge_volume10",
       "title": "Assidu·e",
       "description": "10 questions répondues au total",
@@ -47,6 +55,27 @@
       "condition": { "type": "volume", "count": 75 }
     },
     {
+      "id": "badge_volume200",
+      "title": "Vétéran·e",
+      "description": "200 questions répondues au total",
+      "icon": "🛡️",
+      "condition": { "type": "volume", "count": 200 }
+    },
+    {
+      "id": "badge_volume500",
+      "title": "Machine à réviser",
+      "description": "500 questions répondues au total",
+      "icon": "🤖",
+      "condition": { "type": "volume", "count": 500 }
+    },
+    {
+      "id": "badge_volume1000",
+      "title": "Légende de l'INSP",
+      "description": "1000 questions répondues au total — le badge ultime",
+      "icon": "👑",
+      "condition": { "type": "volume", "count": 1000 }
+    },
+    {
       "id": "badge_expert_constitution",
       "title": "Expert·e constitutionnel·le",
       "description": "20 questions de droit constitutionnel répondues",
@@ -61,6 +90,13 @@
       "condition": { "type": "volume", "topic": "ct", "count": 15 }
     },
     {
+      "id": "badge_expert_arrets",
+      "title": "Mémoire de la jurisprudence",
+      "description": "40 questions sur les arrêts répondues",
+      "icon": "📜",
+      "condition": { "type": "volume", "topic": "arrets_quiz", "count": 40 }
+    },
+    {
       "id": "badge_precision_constitution",
       "title": "Sans faute",
       "description": "90% de bonnes réponses sur les 10 dernières questions de droit constitutionnel",
@@ -73,6 +109,46 @@
       "description": "90% de bonnes réponses sur les 10 dernières questions sur les collectivités territoriales",
       "icon": "🎯",
       "condition": { "type": "accuracy_above", "topic": "ct", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_polymathe",
+      "title": "Polymathe",
+      "description": "Au moins 15 questions répondues dans chacun des trois thèmes (constitution, CT, arrêts)",
+      "icon": "🧠",
+      "condition": {
+        "type": "all_of",
+        "conditions": [
+          { "type": "volume", "topic": "constitution", "count": 15 },
+          { "type": "volume", "topic": "ct", "count": 15 },
+          { "type": "volume", "topic": "arrets_quiz", "count": 15 }
+        ]
+      }
+    },
+    {
+      "id": "badge_sans_faille",
+      "title": "Sans faille",
+      "description": "90% de réussite simultanément en droit constitutionnel et sur les collectivités territoriales (sur les 10 dernières questions de chaque thème)",
+      "icon": "💎",
+      "condition": {
+        "type": "all_of",
+        "conditions": [
+          { "type": "accuracy_above", "topic": "constitution", "window": 10, "threshold": 0.9 },
+          { "type": "accuracy_above", "topic": "ct", "window": 10, "threshold": 0.9 }
+        ]
+      }
+    },
+    {
+      "id": "badge_triple_couronne",
+      "title": "Triple couronne",
+      "description": "500 questions répondues au total ET 90% de réussite sur les 20 dernières questions d'arrêts — la combinaison volume + précision la plus exigeante",
+      "icon": "🏆",
+      "condition": {
+        "type": "all_of",
+        "conditions": [
+          { "type": "volume", "count": 500 },
+          { "type": "accuracy_above", "topic": "arrets_quiz", "window": 20, "threshold": 0.9 }
+        ]
+      }
     }
   ]
 }
