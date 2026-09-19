@@ -1,0 +1,171 @@
+{
+  "id": "ct",
+  "title": "Collectivités territoriales",
+  "description": "Décentralisation, communes, départements, régions et intercommunalité",
+  "questions": [
+    {
+      "id": "ct_q1",
+      "type": "mcq",
+      "prompt": "Quelle loi de 2015 réorganise la carte des régions françaises, en les faisant passer de 22 à 13 en métropole ?",
+      "choices": ["La loi NOTRe", "La loi MAPTAM", "La loi du 16 janvier 2015", "La loi ATR"],
+      "correctIndex": 2,
+      "explanation": "La loi du 16 janvier 2015 refond la carte des grandes régions, dans un objectif de masse critique par rapport à la moyenne européenne."
+    },
+    {
+      "id": "ct_q2",
+      "type": "true_false",
+      "prompt": "La loi NOTRe de 2015 a supprimé la clause générale de compétence pour les départements et les régions.",
+      "correctAnswer": true,
+      "explanation": "Seules les communes conservent la clause générale de compétence, bon exemple du principe de subsidiarité."
+    },
+    {
+      "id": "ct_q3",
+      "type": "mcq",
+      "prompt": "Combien y a-t-il approximativement de communes en France, un record en Europe ?",
+      "choices": ["Environ 10 000", "Environ 35 000", "Environ 60 000", "Environ 100 000"],
+      "correctIndex": 1,
+      "explanation": "La France compte environ 35 000 communes, dont 90% ont moins de 3 000 habitants — une fragmentation inégalée en Europe."
+    },
+    {
+      "id": "ct_q4",
+      "type": "open",
+      "prompt": "Quelle est la double casquette du maire, qui illustre le fait qu'une commune est à la fois collectivité territoriale et circonscription administrative ?",
+      "answer": "Le maire est à la fois l'exécutif élu du conseil municipal (collectivité territoriale) et un officier d'état civil et de police judiciaire agissant comme agent déconcentré de l'État.",
+      "explanation": "Cette dualité de fonctions traverse toute l'organisation territoriale française."
+    },
+    {
+      "id": "ct_q5",
+      "type": "mcq",
+      "prompt": "Quelle est la compétence \"chef de file\" du département ?",
+      "choices": ["Aménagement du territoire et biodiversité", "Action sociale et solidarité des territoires", "Développement économique", "Organisation des services publics de proximité"],
+      "correctIndex": 1,
+      "explanation": "Le département a pour compétences l'aide sociale, l'enfance, l'autonomie des personnes âgées et handicapées, les collèges et les infrastructures rurales."
+    },
+    {
+      "id": "ct_q6",
+      "type": "true_false",
+      "prompt": "Les départements ont été créés par la Révolution française pour rationaliser le \"millefeuille\" administratif de l'Ancien Régime.",
+      "correctAnswer": true,
+      "explanation": "La carte des départements est stable depuis 1790, avec quelques exceptions (fusion de l'Alsace, la Corse, la réforme de Paris)."
+    },
+    {
+      "id": "ct_q7",
+      "type": "mcq",
+      "prompt": "Quel EPCI (établissement public de coopération intercommunale) se distingue par le fait que ses conseillers sont élus au suffrage universel direct ?",
+      "choices": ["La communauté de communes", "La communauté d'agglomération", "La métropole du Grand Lyon", "Le syndicat mixte"],
+      "correctIndex": 2,
+      "explanation": "La Métropole de Lyon est en réalité une collectivité à statut particulier qui se substitue à la communauté urbaine et au département du Rhône ; ses conseillers sont élus au suffrage universel direct depuis 2020."
+    },
+    {
+      "id": "ct_q8",
+      "type": "open",
+      "prompt": "Quelle est la différence entre le régime d'assimilation législative (DROM, article 73) et le régime de spécialité législative (COM, article 74) ?",
+      "answer": "Dans les DROM, les lois et règlements sont applicables de plein droit (avec possibilité d'adaptation) ; dans les COM, les lois ne s'appliquent que si une mention expresse d'adaptation le prévoit.",
+      "explanation": "La Nouvelle-Calédonie relève quant à elle d'un régime sui generis, encore plus dérogatoire (titre XIII de la Constitution)."
+    },
+    {
+      "id": "ct_q9",
+      "type": "true_false",
+      "prompt": "Le contrôle de légalité exercé par le préfet sur les actes des collectivités territoriales s'exerce a priori, avant leur entrée en vigueur.",
+      "correctAnswer": false,
+      "explanation": "Depuis la fin de la tutelle et les lois Defferre, le contrôle est exercé a posteriori, par le biais du déféré préfectoral devant le tribunal administratif."
+    },
+    {
+      "id": "ct_q10",
+      "type": "mcq",
+      "prompt": "Quelle collectivité a fusionné en 2018 la collectivité territoriale de Corse et les deux anciens départements corses ?",
+      "choices": ["La Collectivité de Corse", "La Métropole de Corse", "L'Assemblée corse unique", "Le Conseil territorial de Corse"],
+      "correctIndex": 0,
+      "explanation": "La Collectivité de Corse, créée en 2018, remplace l'ancienne collectivité territoriale de Corse et les départements de Haute-Corse et Corse-du-Sud."
+    },
+    {
+      "id": "ct_q11",
+      "type": "open",
+      "prompt": "Quels sont les trois principaux types d'établissements publics de coopération intercommunale (EPCI) à fiscalité propre, classés par taille croissante ?",
+      "answer": "La communauté de communes, la communauté d'agglomération, et la métropole (ou communauté urbaine).",
+      "explanation": "Ces structures se distinguent par un seuil de population et l'étendue de leurs compétences obligatoires."
+    },
+    {
+      "id": "ct_q12",
+      "type": "mcq",
+      "prompt": "Depuis quelle réforme le pouvoir de différenciation territoriale a-t-il été renforcé, permettant des adaptations selon les spécificités locales ?",
+      "choices": ["La loi 3DS de 2022", "La loi NOTRe de 2015", "La loi MAPTAM de 2014", "L'acte II de la décentralisation de 2003"],
+      "correctIndex": 0,
+      "explanation": "La loi 3DS de 2022 (différenciation, décentralisation, déconcentration, simplification) réaffirme le principe de différenciation et d'expérimentation."
+    },
+    {
+      "id": "ct_q13",
+      "type": "true_false",
+      "prompt": "Une collectivité territoriale peut exercer une tutelle sur une autre collectivité territoriale.",
+      "correctAnswer": false,
+      "explanation": "L'article 72 de la Constitution l'interdit explicitement ; en revanche, une collectivité peut être désignée \"chef de file\" pour coordonner une action commune."
+    },
+    {
+      "id": "ct_q14",
+      "type": "mcq",
+      "prompt": "Quelle ressource principale des collectivités territoriales a été supprimée en 2023, renforçant leur dépendance financière à l'État ?",
+      "choices": ["La taxe foncière", "La taxe d'habitation", "La TVA", "Les droits de mutation"],
+      "correctIndex": 1,
+      "explanation": "La suppression de la taxe d'habitation (et de la CVAE) a été compensée par des dotations sur une fraction de TVA, qui ne sont pas de véritables ressources propres."
+    },
+    {
+      "id": "ct_q15",
+      "type": "open",
+      "prompt": "Qu'est-ce que le pouvoir d'expérimentation des collectivités territoriales, introduit par la révision constitutionnelle de 2003 ?",
+      "answer": "La possibilité, pour un objet et une durée limités, de déroger aux dispositions législatives ou réglementaires qui régissent l'exercice de leurs compétences, sans pouvoir toucher à une liberté publique ou un droit constitutionnellement garanti.",
+      "explanation": "Exemple : la gestion expérimentale du RSA par les départements, ensuite généralisée."
+    },
+    {
+      "id": "ct_q16",
+      "type": "true_false",
+      "prompt": "Le suffrage universel direct a été instauré au niveau national dès 1848, mais seulement en 1982 pour les élections locales (régions).",
+      "correctAnswer": true,
+      "explanation": "Les conseils régionaux ont été élus pour la première fois au suffrage universel direct en 1986, suite à la loi de 1982 qui transforme les régions en collectivités territoriales à part entière."
+    },
+    {
+      "id": "ct_q17",
+      "type": "mcq",
+      "prompt": "Quel organe exerce le contrôle budgétaire des collectivités territoriales ?",
+      "choices": ["Le tribunal administratif", "La Cour des comptes", "La Chambre régionale des comptes", "Le préfet seul"],
+      "correctIndex": 2,
+      "explanation": "La Chambre régionale des comptes (CRC) contrôle le budget et la gestion des collectivités, avec des procédures contentieuses possibles sur saisine du préfet."
+    },
+    {
+      "id": "ct_q18",
+      "type": "open",
+      "prompt": "Quelle décision du Conseil constitutionnel a reconnu la libre administration des EPCI à fiscalité propre ?",
+      "answer": "La décision du Conseil constitutionnel de 2016, Commune d'Annecy.",
+      "explanation": "Cette reconnaissance est notable car les EPCI ne sont pas des collectivités territoriales mais des établissements publics."
+    },
+    {
+      "id": "ct_q19",
+      "type": "mcq",
+      "prompt": "Depuis la loi du 21 mars 2025, quel mode de scrutin est unifié pour toutes les élections municipales ?",
+      "choices": ["Scrutin majoritaire à un tour", "Liste proportionnelle à deux tours avec prime majoritaire", "Scrutin binominal paritaire", "Scrutin de liste sans prime"],
+      "correctIndex": 1,
+      "explanation": "Une liste ayant la majorité absolue au premier tour remporte 50% des sièges, le reste étant réparti à la proportionnelle, avec un seuil de 5% (10% au second tour)."
+    },
+    {
+      "id": "ct_q20",
+      "type": "true_false",
+      "prompt": "Les conseillers départementaux sont élus au scrutin binominal paritaire majoritaire à deux tours, dans le cadre du canton.",
+      "correctAnswer": true,
+      "explanation": "Ce mode de scrutin, introduit par la loi de 2013, garantit la parité en imposant l'élection d'un binôme homme-femme par canton."
+    },
+    {
+      "id": "ct_q21",
+      "type": "mcq",
+      "prompt": "Quelle métropole a un statut particulier qui la fait se substituer directement au département dans ses limites territoriales ?",
+      "choices": ["La Métropole de Lyon", "La Métropole du Grand Paris", "La Métropole d'Aix-Marseille-Provence", "La Métropole de Lille"],
+      "correctIndex": 0,
+      "explanation": "La Métropole de Lyon (loi MAPTAM 2014) est une collectivité à statut particulier qui exerce les compétences du département du Rhône sur son territoire."
+    },
+    {
+      "id": "ct_q22",
+      "type": "open",
+      "prompt": "Quels sont les deux volets de la péréquation financière entre collectivités territoriales ?",
+      "answer": "La péréquation verticale (l'État reverse davantage aux collectivités défavorisées, via des composantes de la DGF comme la DSU ou la DSR) et la péréquation horizontale (transfert de ressources des collectivités favorisées vers les moins favorisées, via le FCTVA notamment).",
+      "explanation": "Malgré ces mécanismes, le bilan de la décentralisation reste marqué par une autonomie financière effective en baisse."
+    }
+  ]
+}

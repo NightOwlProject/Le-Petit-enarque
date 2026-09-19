@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "topics": ["exemple"],
+  "version": 3,
+  "topics": ["constitution", "ct"],
   "flashcard_decks": ["arrets"],
-  "gamification_version": 1
+  "gamification_version": 3
 }

@@ -1,27 +1,78 @@
 {
-  "version": 2,
+  "version": 3,
   "badges": [
     {
-      "id": "badge_streak3_exemple",
-      "title": "En feu !",
-      "description": "3 bonnes réponses d'affilée sur le thème Exemple",
+      "id": "badge_streak3_constitution",
+      "title": "Étincelle",
+      "description": "3 bonnes réponses d'affilée en droit constitutionnel",
       "icon": "🔥",
-      "condition": { "type": "streak", "topic": "exemple", "count": 3 },
-      "revokeCondition": { "type": "accuracy_below", "topic": "exemple", "window": 5, "threshold": 0.5 }
+      "condition": { "type": "streak", "topic": "constitution", "count": 3 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "constitution", "window": 5, "threshold": 0.5 }
     },
     {
-      "id": "badge_volume5",
+      "id": "badge_streak7_constitution",
+      "title": "Feu de forêt",
+      "description": "7 bonnes réponses d'affilée en droit constitutionnel",
+      "icon": "🔥",
+      "condition": { "type": "streak", "topic": "constitution", "count": 7 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "constitution", "window": 10, "threshold": 0.5 }
+    },
+    {
+      "id": "badge_streak5_ct",
+      "title": "Décentralisateur·rice",
+      "description": "5 bonnes réponses d'affilée sur les collectivités territoriales",
+      "icon": "🏛️",
+      "condition": { "type": "streak", "topic": "ct", "count": 5 },
+      "revokeCondition": { "type": "accuracy_below", "topic": "ct", "window": 8, "threshold": 0.5 }
+    },
+    {
+      "id": "badge_volume10",
       "title": "Assidu·e",
-      "description": "5 questions répondues au total",
+      "description": "10 questions répondues au total",
       "icon": "📚",
-      "condition": { "type": "volume", "count": 5 }
+      "condition": { "type": "volume", "count": 10 }
     },
     {
-      "id": "badge_volume20",
+      "id": "badge_volume30",
       "title": "Marathonien·ne",
-      "description": "20 questions répondues au total",
+      "description": "30 questions répondues au total",
       "icon": "🏅",
-      "condition": { "type": "volume", "count": 20 }
+      "condition": { "type": "volume", "count": 30 }
+    },
+    {
+      "id": "badge_volume75",
+      "title": "Increvable",
+      "description": "75 questions répondues au total",
+      "icon": "🚀",
+      "condition": { "type": "volume", "count": 75 }
+    },
+    {
+      "id": "badge_expert_constitution",
+      "title": "Expert·e constitutionnel·le",
+      "description": "20 questions de droit constitutionnel répondues",
+      "icon": "⚖️",
+      "condition": { "type": "volume", "topic": "constitution", "count": 20 }
+    },
+    {
+      "id": "badge_expert_ct",
+      "title": "Spécialiste des collectivités",
+      "description": "15 questions sur les collectivités territoriales répondues",
+      "icon": "🏙️",
+      "condition": { "type": "volume", "topic": "ct", "count": 15 }
+    },
+    {
+      "id": "badge_precision_constitution",
+      "title": "Sans faute",
+      "description": "90% de bonnes réponses sur les 10 dernières questions de droit constitutionnel",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "constitution", "window": 10, "threshold": 0.9 }
+    },
+    {
+      "id": "badge_precision_ct",
+      "title": "Précision territoriale",
+      "description": "90% de bonnes réponses sur les 10 dernières questions sur les collectivités territoriales",
+      "icon": "🎯",
+      "condition": { "type": "accuracy_above", "topic": "ct", "window": 10, "threshold": 0.9 }
     }
   ]
 }
