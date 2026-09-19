@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
   "topics": ["exemple"],
+  "flashcard_decks": ["arrets"],
   "gamification_version": 1
 }

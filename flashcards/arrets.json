@@ -1,0 +1,32 @@
+{
+  "id": "arrets",
+  "title": "Arrêts à connaître",
+  "description": "Grands arrêts de droit administratif",
+  "cards": [
+    {
+      "id": "arret_blanco",
+      "front": "Arrêt Blanco (TC, 1873)",
+      "back": "Consacre l'autonomie du droit administratif et la compétence de la juridiction administrative pour les dommages causés par les services publics."
+    },
+    {
+      "id": "arret_cadot",
+      "front": "Arrêt Cadot (CE, 1889)",
+      "back": "Le Conseil d'État devient juge de droit commun du contentieux administratif : fin de la théorie du ministre-juge."
+    },
+    {
+      "id": "arret_benjamin",
+      "front": "Arrêt Benjamin (CE, 1933)",
+      "back": "Pose le contrôle de proportionnalité du juge administratif sur les mesures de police restreignant les libertés publiques."
+    },
+    {
+      "id": "arret_nicolo",
+      "front": "Arrêt Nicolo (CE, 1989)",
+      "back": "Le Conseil d'État accepte le contrôle de conventionnalité des lois par rapport aux traités internationaux."
+    },
+    {
+      "id": "arret_gisti",
+      "front": "Arrêt GISTI (CE, 1978)",
+      "back": "Reconnaît aux étrangers résidant régulièrement en France le droit de mener une vie familiale normale, comme principe général du droit."
+    }
+  ]
+}
