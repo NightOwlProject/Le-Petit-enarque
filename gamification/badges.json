@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "badges": [
     {
       "id": "badge_volume1",
@@ -298,6 +298,13 @@
       "condition": { "type": "accuracy_above", "topic": "sciences_po", "window": 10, "threshold": 0.9 }
     },
     {
+      "id": "badge_master_sciences_po",
+      "title": "Raymond Aron",
+      "description": "30 questions de sciences politiques répondues",
+      "icon": "📰",
+      "condition": { "type": "volume", "topic": "sciences_po", "count": 30 }
+    },
+    {
       "id": "badge_asterix",
       "title": "Astérix le Gaulois",
       "description": "3 questions répondues en droit constitutionnel ET 3 sur les collectivités territoriales, pour bien commencer",
@@ -436,6 +443,109 @@
       "description": "Moins de 40% de réussite sur les 15 dernières questions, il est temps de réviser un peu",
       "icon": "🪂",
       "condition": { "type": "accuracy_below", "window": 15, "threshold": 0.4 }
+    },
+    {
+      "id": "badge_action_photo",
+      "title": "Louis Daguerre",
+      "description": "Photo de profil ajoutée pour la première fois",
+      "icon": "📸",
+      "condition": { "type": "action", "action": "set_profile_photo" }
+    },
+    {
+      "id": "badge_action_name",
+      "title": "Simone Veil",
+      "description": "Nom de profil renseigné pour la première fois",
+      "icon": "📛",
+      "condition": { "type": "action", "action": "set_profile_name" }
+    },
+    {
+      "id": "badge_action_mute_music",
+      "title": "John Cage",
+      "description": "Musique de fond coupée dans les réglages",
+      "icon": "🤫",
+      "condition": { "type": "action", "action": "mute_music" }
+    },
+    {
+      "id": "badge_action_mute_sfx",
+      "title": "Marcel Marceau",
+      "description": "Effets sonores coupés dans les réglages",
+      "icon": "🎭",
+      "condition": { "type": "action", "action": "mute_sfx" }
+    },
+    {
+      "id": "badge_action_theme",
+      "title": "Yves Klein",
+      "description": "Couleur du thème changée pour la première fois",
+      "icon": "🎨",
+      "condition": { "type": "action", "action": "change_theme" }
+    },
+    {
+      "id": "badge_action_sync",
+      "title": "Claude Chappe",
+      "description": "Synchronisation manuelle du contenu lancée depuis les réglages",
+      "icon": "📡",
+      "condition": { "type": "action", "action": "manual_sync" }
+    },
+    {
+      "id": "badge_action_all_types",
+      "title": "Léonard de Vinci",
+      "description": "Au moins une question répondue dans chacun des quatre formats (QCM, vrai/faux, ouverte, à taper)",
+      "icon": "🎨",
+      "condition": { "type": "action", "action": "all_question_types" }
+    },
+    {
+      "id": "badge_cat_collector",
+      "title": "Le Chat Botté",
+      "description": "3 animations de Malya débloquées",
+      "icon": "🐱",
+      "condition": { "type": "action", "action": "cat_collector" }
+    },
+    {
+      "id": "badge_day_streak_7",
+      "title": "Benjamin Franklin",
+      "description": "7 jours d'affilée avec au moins une question répondue",
+      "icon": "⏰",
+      "condition": { "type": "day_streak", "count": 7 }
+    },
+    {
+      "id": "badge_day_streak_30",
+      "title": "Confucius",
+      "description": "30 jours d'affilée avec au moins une question répondue",
+      "icon": "📚",
+      "condition": { "type": "day_streak", "count": 30 }
+    },
+    {
+      "id": "badge_diderot",
+      "title": "Diderot",
+      "description": "2000 questions répondues au total, une œuvre encyclopédique",
+      "icon": "📖",
+      "condition": { "type": "volume", "count": 2000 }
+    },
+    {
+      "id": "badge_hammurabi",
+      "title": "Hammurabi",
+      "description": "100% de réussite sur les 50 dernières questions, toutes catégories confondues",
+      "icon": "⚖️",
+      "condition": { "type": "accuracy_above", "window": 50, "threshold": 1.0 }
+    },
+    {
+      "id": "badge_aristote",
+      "title": "Aristote",
+      "description": "Les huit badges \"maîtrise\" obtenus en même temps, un savoir universel",
+      "icon": "🏛️",
+      "condition": {
+        "type": "all_of",
+        "conditions": [
+          { "type": "badge_earned", "badge": "badge_master_constitution" },
+          { "type": "badge_earned", "badge": "badge_master_ct" },
+          { "type": "badge_earned", "badge": "badge_master_arrets" },
+          { "type": "badge_earned", "badge": "badge_master_contentieux" },
+          { "type": "badge_earned", "badge": "badge_master_dmue" },
+          { "type": "badge_earned", "badge": "badge_master_da2" },
+          { "type": "badge_earned", "badge": "badge_master_dfp" },
+          { "type": "badge_earned", "badge": "badge_master_sciences_po" }
+        ]
+      }
     }
   ]
 }

@@ -2,5 +2,5 @@
   "version": 9,
   "topics": ["constitution", "ct", "arrets_quiz", "contentieux_admin", "dmue", "da2", "dfp", "sciences_po"],
   "flashcard_decks": ["arrets", "constitution", "ct", "contentieux_admin", "dmue", "da2", "dfp", "sciences_po"],
-  "gamification_version": 8
+  "gamification_version": 9
 }
